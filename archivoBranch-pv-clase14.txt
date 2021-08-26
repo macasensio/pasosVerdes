@@ -1,1 +1,3 @@
 Este es un archivo txt creado con el objetivo de practicar trabajar en una branch creada desde master y luego mergear estas modificaciones a la branch master.
+
+En este desafío había que iniciar git en el proyecto.
