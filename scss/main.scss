@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    //font-size: 62.5%
+}
+
+/*----- IMPORTS -----*/
+@import 'pages/variables.scss';
+@import 'pages/compostar';
+@import 'pages/contacto';
+@import 'pages/footer.scss';
+@import 'pages/index';
+@import 'pages/lastresr';
+@import 'pages/menosesmas';
+@import 'pages/navbar.scss';
+
+
+
+/*----- CLASES GENERALES -----*/
+
+main, .mtop-100 {
+    margin-top: 100px;
+}
+
+.sinBullet {
+    list-style: none;
+}
+.txt_center {
+    text-align: center;
+}

@@ -1,0 +1,11 @@
+Cambios realizados:
+
+- Añadí h1 a todas las páginas
+- Agregué description y keywords en todas las páginas de mi sitio. Aún me falta pulir bien las keywords de cada página.
+- Agregué un favicon ya que me parece estéticamente lindo y un recurso interesante de utilizar
+
+- Sumé 2 páginas a mi proyecto: 
+404.html -> agregué una página 404 ya que siempre es bueno tener una página de error cuando algo no funciona o se escribe mal una URL.
+
+sitemap.xml -> es un mapa de nuestro sitio, donde agregamos las urls de nuestro sitio que queremos indexar en los buscadores para que las arañas web entren a nuestra web fácilmente.
+No estoy segura si escribí correctamente cada contenido de la etiqueta, pero entiendo el sitemap es un archivo importante para nuestras webs, por eso lo agrego a mi proyecto.

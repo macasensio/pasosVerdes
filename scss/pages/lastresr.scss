@@ -1,0 +1,50 @@
+/* LAS TRES R*/
+
+/* intro */
+
+.align-center {
+    text-align: center;
+}
+.lasTresR h1 {
+    @extend .align-center;
+    padding: 50px 0px 30px 0px;
+    color: $verde-light;
+    font-size: 3rem;
+    text-shadow: 1px 1px $verde-dark;
+}
+.intro__texto p {
+    text-align: justify;
+    margin: 0;
+}
+.intro__img {
+    @extend .align-center;
+}
+
+$tamanio: 100px;
+.intro__img img {
+    width: $tamanio*2;
+}
+
+.verdeBold {
+    color: $verde-dark;
+    font-weight: bold
+}
+
+/* cards */
+.main-lastresr {
+    margin: $tamanio/2;
+}
+
+.tresRCards img {
+    width: $tamanio+20px;
+    margin: auto;
+}
+
+.reducir__card > div, .reciclar__card > div, .reutilizar__card > div {
+    border: none;
+    background-color: transparent;
+    padding: 20px 0px;
+}
+.reducir__card > div:hover , .reciclar__card > div:hover , .reutilizar__card > div:hover {
+    box-shadow: 1px 1px #85bb5c;
+}

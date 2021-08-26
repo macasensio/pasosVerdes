@@ -1,0 +1,205 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+/*----- IMPORTS -----*/
+/* VARIABLES */
+/* font */
+/* COMPOSTAR */
+#compostar article {
+  width: 40%;
+  margin: 50px auto; }
+
+/* CONTACTO */
+#contactPage {
+  background: linear-gradient(#79c46f, white); }
+
+#contacto {
+  width: 40%;
+  margin: 40px auto;
+  font-size: 1.2rem;
+  background: white; }
+
+#contacto form {
+  text-align: center; }
+
+/* FOOTER */
+.footer__frase {
+  background-color: #558b2f; }
+
+.footer__frase p {
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 1.7rem; }
+
+footer li {
+  list-style: none; }
+
+.color-redes {
+  color: #198754; }
+
+.color-secciones {
+  color: #6c757d; }
+
+/* INDEX */
+/* portada */
+.portada {
+  height: 80vh;
+  background-image: url("../assets/images/img-inicio.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+.portada__h1 {
+  font-weight: bold;
+  font-size: 5rem;
+  text-align: center; }
+
+.portada__h2 {
+  font-style: italic;
+  font-size: 1.5rem;
+  text-align: center; }
+
+/* sección links a páginas */
+.seccionPaginas {
+  margin: 5rem 0; }
+
+.seccionPaginas__p {
+  margin-bottom: 3rem; }
+
+.seccionPaginas__a {
+  font-weight: bold;
+  background-color: #85bb5c;
+  color: #000000; }
+
+.seccionPaginas__a:hover {
+  background-color: #255d00;
+  color: #ffffff; }
+
+.seccionPaginas__a--margin {
+  margin: 2rem 0; }
+
+/* media query */
+@media screen and (max-width: 991px) {
+  .menu {
+    margin: 15px 0px; }
+  .portada {
+    height: 40vh; } }
+
+.animate__animated.animate__bounce {
+  --animate-duration: 3s; }
+
+/* LAS TRES R*/
+/* intro */
+.align-center, .lasTresR h1, .intro__img {
+  text-align: center; }
+
+.lasTresR h1 {
+  padding: 50px 0px 30px 0px;
+  color: #85bb5c;
+  font-size: 3rem;
+  text-shadow: 1px 1px #255d00; }
+
+.intro__texto p {
+  text-align: justify;
+  margin: 0; }
+
+.intro__img img {
+  width: 200px; }
+
+.verdeBold {
+  color: #255d00;
+  font-weight: bold; }
+
+/* cards */
+.main-lastresr {
+  margin: 50px; }
+
+.tresRCards img {
+  width: 120px;
+  margin: auto; }
+
+.reducir__card > div, .reciclar__card > div, .reutilizar__card > div {
+  border: none;
+  background-color: transparent;
+  padding: 20px 0px; }
+
+.reducir__card > div:hover, .reciclar__card > div:hover, .reutilizar__card > div:hover {
+  box-shadow: 1px 1px #85bb5c; }
+
+/* MENOS ES MÁS */
+/*presioname*/
+.scale-down-center {
+  -webkit-animation: scale-down-center 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite alternate-reverse both;
+  animation: scale-down-center 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite alternate-reverse both; }
+
+/**
+ * ----------------------------------------
+ * animation scale-down-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes scale-down-center {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  100% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8); } }
+
+@keyframes scale-down-center {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  100% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8); } }
+
+/* NAVBAR */
+/* estilos */
+.navbar__logo {
+  width: 80px;
+  transition: all 1s; }
+
+.navbar__logo:hover {
+  transform: rotate(-180deg); }
+
+.menu__ul > li > a {
+  margin: 0px 20px; }
+
+.menu__ul > li a, .submenu__ul a {
+  display: inline-block;
+  font-size: 1.2rem;
+  color: #558b2f;
+  text-decoration: none; }
+  .menu__ul > li a:hover, .submenu__ul a:hover {
+    color: #558b2f;
+    text-decoration: underline; }
+
+.submenu__ul {
+  margin-top: 10px;
+  border: none;
+  box-shadow: 2px 2px 5px #6c757d; }
+  .submenu__ul a:hover {
+    background-color: transparent; }
+
+.menu__botonMobile {
+  font-size: 2rem;
+  color: #558b2f; }
+
+/******** media querys ********/
+/* mobile */
+@media screen and (max-width: 991px) {
+  .menu__ul > li a {
+    margin: 10px 0px; } }
+
+/*----- CLASES GENERALES -----*/
+main, .mtop-100 {
+  margin-top: 100px; }
+
+.sinBullet {
+  list-style: none; }
+
+.txt_center {
+  text-align: center; }

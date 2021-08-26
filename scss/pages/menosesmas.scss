@@ -1,0 +1,33 @@
+/* MENOS ES MÁS */
+
+
+/*presioname*/
+.scale-down-center {
+	-webkit-animation: scale-down-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate-reverse both;
+	animation: scale-down-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate-reverse both;
+}
+/**
+ * ----------------------------------------
+ * animation scale-down-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes scale-down-center {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    100% {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+}
+@keyframes scale-down-center {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    100% {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+}

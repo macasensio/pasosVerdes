@@ -1,0 +1,58 @@
+/* INDEX */
+
+/* portada */
+
+.portada {
+    height: 80vh;
+    background-image: url("../assets/images/img-inicio.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.portada__h1 {
+    font-weight: bold;
+    font-size: 5rem;
+    text-align: center;
+}
+.portada__h2 {
+    font-style: italic;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* sección links a páginas */
+.seccionPaginas { 
+    margin: 5rem 0;
+}
+.seccionPaginas__p {
+    margin-bottom: 3rem;
+}
+.seccionPaginas__a {
+    font-weight: bold;
+    background-color: $verde-light;
+    color: #000000;
+}
+.seccionPaginas__a:hover {
+    background-color: $verde-dark;
+    color: #ffffff;
+}
+.seccionPaginas__a--margin {
+    margin: 2rem 0;
+}
+
+/* media query */
+
+@media screen and (max-width: 991px) {
+    .menu {
+        margin: 15px 0px;
+    }
+    .portada {
+        height: 40vh;
+    }
+}
+
+
+.animate__animated.animate__bounce {
+    --animate-duration: 3s;
+}

@@ -1,0 +1,47 @@
+/* NAVBAR */
+
+/* estilos */
+.navbar__logo {
+    width: 80px;    
+    transition: all 1s;
+}
+
+.navbar__logo:hover {
+    transform: rotate(-180deg);
+}
+
+.menu__ul > li > a {
+    margin: 0px 20px;
+}
+.menu__ul > li a, .submenu__ul a {
+    display: inline-block;
+    font-size: $menu-fontSize;
+    color: $verde-ppal;
+    text-decoration: none;
+
+    &:hover {
+        color: $verde-ppal;
+        text-decoration: underline;
+    }
+}
+.submenu__ul {
+    margin-top: 10px;
+    border: none;
+    box-shadow: 2px 2px 5px #6c757d;
+    a:hover {
+        background-color: transparent;
+    }
+}
+
+.menu__botonMobile {
+    font-size: 2rem;
+    color: $verde-ppal;
+}
+
+/******** media querys ********/
+/* mobile */
+@media screen and (max-width: 991px) {
+    .menu__ul > li a {
+        margin: 10px 0px;
+    }
+}
