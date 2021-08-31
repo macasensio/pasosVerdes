@@ -137,9 +137,6 @@ footer li {
   background-color: transparent;
   padding: 20px 0px; }
 
-.reducir__card > div:hover, .reciclar__card > div:hover, .reutilizar__card > div:hover {
-  box-shadow: 1px 1px #85bb5c; }
-
 /*********** media query ***********/
 /* X-Small */
 @media screen and (max-width: 576px) {
@@ -170,7 +167,9 @@ footer li {
 /* Extra large large */
 @media screen and (min-width: 1400px) {
   .intro__img img {
-    background-color: blue; } }
+    background-color: blue; }
+  .reducir__card > div:hover, .reciclar__card > div:hover, .reutilizar__card > div:hover {
+    box-shadow: 1px 1px #85bb5c; } }
 
 /* MENOS ES MÁS */
 /*presioname*/
