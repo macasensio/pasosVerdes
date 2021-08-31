@@ -1,9 +1,8 @@
 /* INDEX */
 
 /* portada */
-
 .portada {
-    height: 80vh;
+    height: 40vh;
     background-image: url("../assets/images/img-inicio.jpg");
     background-repeat: no-repeat;
     background-position: center center;
@@ -12,18 +11,18 @@
 
 .portada__h1 {
     font-weight: bold;
-    font-size: 5rem;
+    font-size: 2.5rem;
     text-align: center;
 }
 .portada__h2 {
     font-style: italic;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     text-align: center;
 }
 
 /* sección links a páginas */
 .seccionPaginas { 
-    margin: 5rem 0;
+    margin: 3rem 0;
 }
 .seccionPaginas__p {
     margin-bottom: 3rem;
@@ -41,14 +40,29 @@
     margin: 2rem 0;
 }
 
-/* media query */
+/*********** media query ***********/
 
-@media screen and (max-width: 991px) {
-    .menu {
-        margin: 15px 0px;
+/* Medium */
+@media screen and (min-width: 768px) {
+    .portada__h1 {
+        font-size: 4rem;
     }
+    .portada__h2 {
+        font-size: 2rem;
+    }
+}
+
+/* Extra Large */
+@media screen and (min-width: 1200px) {
     .portada {
-        height: 40vh;
+        height: 80vh;
+    }
+    .portada__h1 {
+        font-size: 5rem;
+    }
+
+    .seccionPaginas { 
+        margin: 5rem 0;
     }
 }
 

@@ -1,5 +1,0 @@
-Este es un archivo txt creado con el objetivo de practicar trabajar en una branch creada desde master y luego mergear estas modificaciones a la branch master.
-
-Este archivo irá cambiando de nombre según la branch en la que esté trabajando.
-
-Este es el archivo de mi branch master

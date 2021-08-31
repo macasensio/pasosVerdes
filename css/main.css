@@ -46,7 +46,7 @@ footer li {
 /* INDEX */
 /* portada */
 .portada {
-  height: 80vh;
+  height: 40vh;
   background-image: url("../assets/images/img-inicio.jpg");
   background-repeat: no-repeat;
   background-position: center center;
@@ -54,17 +54,17 @@ footer li {
 
 .portada__h1 {
   font-weight: bold;
-  font-size: 5rem;
+  font-size: 2.5rem;
   text-align: center; }
 
 .portada__h2 {
   font-style: italic;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   text-align: center; }
 
 /* sección links a páginas */
 .seccionPaginas {
-  margin: 5rem 0; }
+  margin: 3rem 0; }
 
 .seccionPaginas__p {
   margin-bottom: 3rem; }
@@ -81,12 +81,22 @@ footer li {
 .seccionPaginas__a--margin {
   margin: 2rem 0; }
 
-/* media query */
-@media screen and (max-width: 991px) {
-  .menu {
-    margin: 15px 0px; }
+/*********** media query ***********/
+/* Medium */
+@media screen and (min-width: 768px) {
+  .portada__h1 {
+    font-size: 4rem; }
+  .portada__h2 {
+    font-size: 2rem; } }
+
+/* Extra Large */
+@media screen and (min-width: 1200px) {
   .portada {
-    height: 40vh; } }
+    height: 80vh; }
+  .portada__h1 {
+    font-size: 5rem; }
+  .seccionPaginas {
+    margin: 5rem 0; } }
 
 .animate__animated.animate__bounce {
   --animate-duration: 3s; }
@@ -107,7 +117,8 @@ footer li {
   margin: 0; }
 
 .intro__img img {
-  width: 200px; }
+  width: 200px;
+  margin-top: 50px; }
 
 .verdeBold {
   color: #255d00;
@@ -115,7 +126,7 @@ footer li {
 
 /* cards */
 .main-lastresr {
-  margin: 50px; }
+  margin: 50px 0px; }
 
 .tresRCards img {
   width: 120px;
@@ -128,6 +139,38 @@ footer li {
 
 .reducir__card > div:hover, .reciclar__card > div:hover, .reutilizar__card > div:hover {
   box-shadow: 1px 1px #85bb5c; }
+
+/*********** media query ***********/
+/* X-Small */
+@media screen and (max-width: 576px) {
+  .intro__img img {
+    background-color: red; } }
+
+/* Small */
+@media screen and (min-width: 576px) {
+  .intro__img img {
+    background-color: blue; } }
+
+/* Medium */
+@media screen and (min-width: 768px) {
+  .intro__img img {
+    margin-top: 0px;
+    background-color: red; } }
+
+/* Large */
+@media screen and (min-width: 992px) {
+  .intro__img img {
+    background-color: blue; } }
+
+/* Extra large */
+@media screen and (min-width: 1200px) {
+  .intro__img img {
+    background-color: red; } }
+
+/* Extra large large */
+@media screen and (min-width: 1400px) {
+  .intro__img img {
+    background-color: blue; } }
 
 /* MENOS ES MÁS */
 /*presioname*/

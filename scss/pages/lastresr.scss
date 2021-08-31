@@ -20,9 +20,9 @@
     @extend .align-center;
 }
 
-$tamanio: 100px;
 .intro__img img {
-    width: $tamanio*2;
+    width: 200px;
+    margin-top: 50px;
 }
 
 .verdeBold {
@@ -32,11 +32,11 @@ $tamanio: 100px;
 
 /* cards */
 .main-lastresr {
-    margin: $tamanio/2;
+    margin: 50px 0px;
 }
 
 .tresRCards img {
-    width: $tamanio+20px;
+    width: 120px;
     margin: auto;
 }
 
@@ -47,4 +47,49 @@ $tamanio: 100px;
 }
 .reducir__card > div:hover , .reciclar__card > div:hover , .reutilizar__card > div:hover {
     box-shadow: 1px 1px #85bb5c;
+}
+
+
+/*********** media query ***********/
+/* X-Small */
+@media screen and (max-width: 576px) {
+    .intro__img img {
+        background-color: red;
+    }
+}
+
+/* Small */
+@media screen and (min-width: 576px) {
+    .intro__img img {
+        background-color: blue;
+    }
+}
+
+/* Medium */
+@media screen and (min-width: 768px) {
+    .intro__img img {
+        margin-top: 0px;
+        background-color: red;
+    }
+}
+
+/* Large */
+@media screen and (min-width: 992px) {
+    .intro__img img {
+        background-color: blue;
+    }
+}
+
+/* Extra large */
+@media screen and (min-width: 1200px) {
+    .intro__img img {
+        background-color: red;
+    }
+}
+
+/* Extra large large */
+@media screen and (min-width: 1400px) {
+    .intro__img img {
+        background-color: blue;
+    }
 }
