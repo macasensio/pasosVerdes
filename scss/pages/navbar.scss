@@ -9,9 +9,12 @@
 .navbar__logo:hover {
     transform: rotate(-180deg);
 }
-
-.menu__ul > li > a {
-    margin: 0px 20px;
+.menu__ul {
+    margin: 20px 0px;
+    //text-align: center;
+}
+.menu__ul > li a {    
+    margin: 10px 0px;
 }
 .menu__ul > li a, .submenu__ul a {
     display: inline-block;
@@ -40,8 +43,39 @@
 
 /******** media querys ********/
 /* mobile */
-@media screen and (max-width: 991px) {
+@media screen and (min-width: 991px) {
     .menu__ul > li a {
-        margin: 10px 0px;
+        margin: 0px 20px;
     }
+}
+
+/*********** media query ***********/
+/* X-Small */
+@media screen and (max-width: 576px) {
+
+}
+
+/* Small */
+@media screen and (min-width: 576px) {
+
+}
+
+/* Medium */
+@media screen and (min-width: 768px) {
+
+}
+
+/* Large */
+@media screen and (min-width: 992px) {
+
+}
+
+/* Extra large */
+@media screen and (min-width: 1200px) {
+
+}
+
+/* Extra large large */
+@media screen and (min-width: 1400px) {
+
 }

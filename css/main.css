@@ -12,6 +12,13 @@
   width: 40%;
   margin: 50px auto; }
 
+/*********** media query ***********/
+/* X-Small */
+/* Small */
+/* Medium */
+/* Large */
+/* Extra large */
+/* Extra large large */
 /* CONTACTO */
 #contactPage {
   background: linear-gradient(#79c46f, white); }
@@ -25,6 +32,13 @@
 #contacto form {
   text-align: center; }
 
+/*********** media query ***********/
+/* X-Small */
+/* Small */
+/* Medium */
+/* Large */
+/* Extra large */
+/* Extra large large */
 /* FOOTER */
 .footer__frase {
   background-color: #558b2f; }
@@ -43,6 +57,13 @@ footer li {
 .color-secciones {
   color: #6c757d; }
 
+/*********** media query ***********/
+/* X-Small */
+/* Small */
+/* Medium */
+/* Large */
+/* Extra large */
+/* Extra large large */
 /* INDEX */
 /* portada */
 .portada {
@@ -81,7 +102,13 @@ footer li {
 .seccionPaginas__a--margin {
   margin: 2rem 0; }
 
+/*********** animation ***********/
+.animate__animated.animate__bounce {
+  --animate-duration: 3s; }
+
 /*********** media query ***********/
+/* X-Small */
+/* Small */
 /* Medium */
 @media screen and (min-width: 768px) {
   .portada__h1 {
@@ -89,6 +116,7 @@ footer li {
   .portada__h2 {
     font-size: 2rem; } }
 
+/* Large */
 /* Extra Large */
 @media screen and (min-width: 1200px) {
   .portada {
@@ -98,9 +126,7 @@ footer li {
   .seccionPaginas {
     margin: 5rem 0; } }
 
-.animate__animated.animate__bounce {
-  --animate-duration: 3s; }
-
+/* Extra large large */
 /* LAS TRES R*/
 /* intro */
 .align-center, .lasTresR h1, .intro__img {
@@ -198,6 +224,13 @@ footer li {
     -webkit-transform: scale(0.8);
     transform: scale(0.8); } }
 
+/*********** media query ***********/
+/* X-Small */
+/* Small */
+/* Medium */
+/* Large */
+/* Extra large */
+/* Extra large large */
 /* NAVBAR */
 /* estilos */
 .navbar__logo {
@@ -207,8 +240,11 @@ footer li {
 .navbar__logo:hover {
   transform: rotate(-180deg); }
 
-.menu__ul > li > a {
-  margin: 0px 20px; }
+.menu__ul {
+  margin: 20px 0px; }
+
+.menu__ul > li a {
+  margin: 10px 0px; }
 
 .menu__ul > li a, .submenu__ul a {
   display: inline-block;
@@ -232,10 +268,17 @@ footer li {
 
 /******** media querys ********/
 /* mobile */
-@media screen and (max-width: 991px) {
+@media screen and (min-width: 991px) {
   .menu__ul > li a {
-    margin: 10px 0px; } }
+    margin: 0px 20px; } }
 
+/*********** media query ***********/
+/* X-Small */
+/* Small */
+/* Medium */
+/* Large */
+/* Extra large */
+/* Extra large large */
 /*----- CLASES GENERALES -----*/
 main, .mtop-100 {
   margin-top: 100px; }
@@ -245,3 +288,11 @@ main, .mtop-100 {
 
 .txt_center {
   text-align: center; }
+
+/*********** media query ***********/
+/* X-Small */
+/* Small */
+/* Medium */
+/* Large */
+/* Extra large */
+/* Extra large large */

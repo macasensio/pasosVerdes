@@ -40,7 +40,23 @@
     margin: 2rem 0;
 }
 
+/*********** animation ***********/
+
+.animate__animated.animate__bounce {
+    --animate-duration: 3s;
+}
+
+
 /*********** media query ***********/
+/* X-Small */
+@media screen and (max-width: 576px) {
+
+}
+
+/* Small */
+@media screen and (min-width: 576px) {
+
+}
 
 /* Medium */
 @media screen and (min-width: 768px) {
@@ -50,6 +66,11 @@
     .portada__h2 {
         font-size: 2rem;
     }
+}
+
+/* Large */
+@media screen and (min-width: 992px) {
+
 }
 
 /* Extra Large */
@@ -66,7 +87,8 @@
     }
 }
 
+/* Extra large large */
+@media screen and (min-width: 1400px) {
 
-.animate__animated.animate__bounce {
-    --animate-duration: 3s;
 }
+
