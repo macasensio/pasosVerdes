@@ -1,8 +1,24 @@
 /* COMPOSTAR */
 
 #compostar article {
-    width: 40%;
     margin: 50px auto;
+}
+
+.compostar__seccion1, .compostar__seccion2, .compostar__seccion3, .compostar__seccion4 > div > h2 {
+    text-align: center;
+}
+
+
+.compostar__seccion2 img {
+    width: 220px;
+}
+
+.compostar__seccion3 img {
+    width: 180px;
+}
+
+.dudas-accordion {
+    text-align: center;
 }
 
 /*********** media query ***********/

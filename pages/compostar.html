@@ -9,7 +9,7 @@
 
     <title>Compostar - Pasos verdes</title>
 
-    <link rel="icon" type="icon/png" href="../assets/images/cuidado.png">
+    <link rel="icon" type="icon/png" href="../assets/images/logo.png">
     <!-- animate -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- Bootstrap CSS -->
@@ -26,7 +26,7 @@
             <div class="container">
 
                 <!-- logo -->
-                <a class="navbar-brand" href="../index.html"><img src="../assets/images/cuidado.png" alt="" class="navbar__logo"></a>
+                <a class="navbar-brand" href="../index.html"><img src="../assets/images/logo.png" alt="" class="navbar__logo"></a>
                 <!-- / logo -->
 
                 <!-- menu mobile -->
@@ -59,56 +59,196 @@
     </header>
     <!-- / header ---------------------------------------------->
 
-    <!-------------- MAIN -------------->
-    <main id="compostar">
+    <!-- Div contenedor página compostar -->
+    <div id="compostar" class="container-fluid">
+    
+        <!-------------- main -------------->
+        <main>
 
-        <!-- título página -->
-        <div class="text-center">
-            <h1>Compostar</h1>
-        </div>
-        <!-- / título página -->
+            <!-- título página -->
+            <div class="txt_center">
+                <h1>Compostar</h1>
+            </div>
+            
+        </main>        
+        <!-------------- end main -------------->
 
-        <article class="txt_center">
-            <h2>¿Qué es el compostaje?</h2>
-            <p>El reciclaje es el proceso de recolección y transformación de materiales para convertirlos en nuevos productos, y que de otro modo serían desechados como basura. ... El secundario transforma un producto desechado en otros objetos aunque fabricados con el mismo material.</p>
-        </article >
-        <article class="txt_center">
-            <h2>¿Qué beneficios tiene?</h2>
-            <ul class="">
-                <li>Reduce la cantidad de materia orgánica que va a los vertederos.</li>
-                <li>Reduce el uso de fertilizantes inorgánicos, a los que sustituye.</li>
-                <li>Ahorra agua de riego debido a la capacidad de retención del agua del compost.</li>
-                <li>Aporta los nutrientes necesarios para el desarrollo de las plantas de forma natural.</li>
-            </ul>
-        </article>
-    </main>
+        <!-- Sección 1 - Intro compostar -->
+        <section class="compostar__seccion1">
 
-    <section>
-        <div>
-            <p>Compostar es reciclar en serio</p>
-            <p>Los desechos orgánicos son el mayor problema de contaminación del mundo: en los rellenos sanitarios generan gases de efecto invernadero, e impiden aprovechar los plásticos, metales y vidrios. Cuando compostás, reciclás los orgánicos en tu casa. Es reciclar, en serio.</p>
-            <img src="../assets/images/compostar-2.png" alt="">
-        </div>
-    </section>
+            <div class="row col-12 col-xl-6 offset-xl-3">
+                <div class="col-12">
+                    <h2>Compostar es reciclar <span>en serio</span></h2>
+                </div>
+                
+                <div class="col-12">
+                    <p>Los desechos orgánicos son el mayor problema de contaminación del mundo: en los rellenos sanitarios generan gases de efecto invernadero, e impiden aprovechar los plásticos, metales y vidrios. Cuando compostás, reciclás los orgánicos en tu casa. Es reciclar, en serio.</p>
+                    <img src="../assets/images/compostar/compostar-2.png" alt="">
+                </div>            
+            </div>
 
-    <section>
-        <p>Qué residuos podés compostar</p>
-        <div>
-            <img src="../assets/images/compost-si.jpg" alt="">
-            <p>Sí</p>
-            <p>Restos de frutas y verduras, cáscaras de huevos, saquitos de té o café, yerba mate, toallitas de papel, papel de diario.</p>
-        </div>
-        <div>
-            <img src="../assets/images/compost-no.jpg" alt="">
-            <p>No</p>
-            <p>Restos de frutas y verduras, cáscaras de huevos, saquitos de té o café, yerba mate, toallitas de papel, papel de diario.</p>
-        </div>
-    </section>
+        </section>
+        <!-- / Sección 1 - Intro compostar -->
 
-    <section>
-        
-    </section>
-    <!-------------- END MAIN -------------->
+        <!-- / Sección 2 - Qué compostar -->
+        <section class="compostar__seccion2">
+            <div class="col-12 col-xl-6 offset-xl-3">
+                <div class="col-12 d-flex justify-content-center">
+                    <h2>Qué residuos podés compostar</h2>
+                </div>
+
+                <div class="row col-12 d-flex justify-content-center align-items-center">
+                    <div class="col-5">
+                        <img src="../assets/images/compost-si.jpg" alt="">
+                        <hr>
+                        <p>Sí</p>
+                        <p>Restos de frutas y verduras, cáscaras de huevos, saquitos de té o café, yerba mate, toallitas de papel, papel de diario.</p>
+                    </div>
+                    <div class="col-5">
+                        <img src="../assets/images/compost-no.jpg" alt="">
+                        <hr>
+                        <p>No</p>
+                        <p>Restos de frutas y verduras, cáscaras de huevos, saquitos de té o café, yerba mate, toallitas de papel, papel de diario.</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- / Sección 2 - Qué compostar -->
+
+        <!-- Sección 3 - Paso a paso-->
+        <section class="compostar__seccion3">
+            <div class="col-12 col-xl-6 offset-xl-3">
+                <div class="col-12">
+                    <h2>Paso a paso para hacer compost en casa de manera muy fácil</h2>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <img src="../assets/images/compostar/como-compostar-1.svg" alt="">
+                        <h3>1. AGREGÁ</h3>
+                        <p>Orgánicos y secos a tu compostera cada 1 o 2 días.</p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="../assets/images/compostar/como-compostar-2.svg" alt="">
+                        <h3>2. MEZCLÁ</h3>
+                        <p>Una vez por semana.</p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="../assets/images/compostar/como-compostar-3.svg" alt="">
+                        <h3>3. USÁ</h3>
+                        <p>Vaciá la compostera cada 3 meses. Usá el compost para las plantas y regalá si te sobra.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- / Sección 3 - Paso a paso-->
+
+        <!-- Sección 4 - Dudas -->
+            <section class="compostar__seccion4">
+                <div class="col-12">
+                    <h2>Las 5 dudas más comunes antes de empezar a compostar</h2>
+                </div>
+                <!-- Dudas accordion -->
+                <div class="col-10 offset-1 col-md-8 offset-md-2 col-xl-6 offset-xl-3">
+
+                    <!-- Duda 1 -->
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                ¿Lleva mucho tiempo compostar?
+                            </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body">
+                                    <p>5-10 minutos, cada 1 o 2 días.</p>
+                                    <p>Menos tiempo que sacar la bolsa de basura a la calle</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- / Duda 1 -->
+
+                        <!-- Duda 2 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                Tengo poco espacio/no tengo jardín/parque/patio. ¿puedo compostar igual?
+                            </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                <div class="accordion-body">
+                                    <div class="accordion-body">
+                                        <p>Sí.</p>
+                                        <p>Hay composteras ideales para aprovechar pequeños espacios como un balcón o un lavadero.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- / Duda 2 -->
+
+                        <!-- Duda 3 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                ¿Puede oler mal el compost?
+                            </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body">
+                                    <div class="accordion-body">
+                                        <p>El compost bien hecho huele tierra húmeda.</p>
+                                        <p>Si oliera mal o a podrido, es que a tu compost le falta oxigenación. Eso crea bacterias que huelen mal. Revolvé y agregale secos (hojas, viruta o cartón).</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- / Duda 3 -->
+
+                        <!-- Duda 4 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                ¿Atrae bichos a mi casa?
+                            </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                                <div class="accordion-body">
+                                    <div class="accordion-body">
+                                        <p>No.</p>
+                                        <p>En un compost sano trabajan insectos que se quedan dentro de la compostera. No tiene cucarachas, ni ratas, ni hormigas, ni moscas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- / Duda 4 -->
+
+                        <!-- Duda 5 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                                ¿Se puede compostar sin lombrices?
+                            </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+                                <div class="accordion-body">
+                                    <div class="accordion-body">
+                                        <p>Sí.</p>
+                                        <p>Pero si podés, ¡usalas! Las lombrices rojas californianas aceleran la descomposición. ¿Salen de la compostera? No, se quedan</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- / Duda 5 -->
+
+                    </div>
+                    <!-- / Dudas accordion -->
+
+                </div>
+            </section>
+        <!-- / Sección 4 - Dudas -->
+
+    </div>
+    <!-- / Div contenedor página compostar -->
 
     <!-- footer ---------------------------------------------->
     <footer>
@@ -135,7 +275,7 @@
                     <!-- web -->
                     <div class="col-12 col-md-6 text-center">
                         <div class="col-12">
-                            <img src="../assets/images/cuidado.png" width="50" alt="">
+                            <img src="../assets/images/logo.png" width="50" alt="">
                             <p>&copy; Pasos Verdes</p>
                         </div>
                         <ul class="col-12 ps-0 d-flex justify-content-center">
