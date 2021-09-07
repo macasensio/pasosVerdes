@@ -8,17 +8,47 @@
 /* VARIABLES */
 /* font */
 /* COMPOSTAR */
+#compostar h1 {
+  display: none; }
+
 #compostar article {
   margin: 50px auto; }
 
 .compostar__seccion1, .compostar__seccion2, .compostar__seccion3, .compostar__seccion4 > div > h2 {
   text-align: center; }
 
-.compostar__seccion2 img {
-  width: 220px; }
+.compostar__seccion1 {
+  padding-top: 30px; }
 
-.compostar__seccion3 img {
-  width: 180px; }
+.compostar__seccion2 img {
+  width: 100%; }
+
+.compostar__seccion2__resp {
+  font-weight: bold;
+  font-size: 1.5rem; }
+
+.compostar__seccion3 {
+  margin-top: 50px; }
+  .compostar__seccion3 img {
+    width: 180px; }
+
+.compostar__seccion4 {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  .compostar__seccion4 .accordion {
+    margin-top: 30px; }
+    .compostar__seccion4 .accordion button {
+      font-weight: bold; }
+      .compostar__seccion4 .accordion button:not(.collapsed) {
+        background-color: #cbdc8b;
+        color: #000000; }
+      .compostar__seccion4 .accordion button:focus {
+        outline: none;
+        border: none; }
+
+.accordion-button:focus {
+  outline: none;
+  border: none; }
 
 /*********** media query ***********/
 /* X-Small */
