@@ -106,7 +106,7 @@ footer li {
 /* portada */
 .portada {
   height: 40vh;
-  background-image: url("../assets/images/img-inicio.jpg");
+  background-image: url("../assets/images/index/img-inicio.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; }
