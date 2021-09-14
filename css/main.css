@@ -236,6 +236,20 @@ footer li {
     box-shadow: 1px 1px #85bb5c; } }
 
 /* MENOS ES MÁS */
+.tips {
+  text-align: center;
+  width: 80%;
+  margin: auto; }
+
+.tips__btn {
+  border: none;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #dfe7c3; }
+
+.tips__img {
+  width: 100px; }
+
 /*presioname*/
 .scale-down-center {
   -webkit-animation: scale-down-center 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite alternate-reverse both;

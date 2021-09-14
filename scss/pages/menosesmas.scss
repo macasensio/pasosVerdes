@@ -1,5 +1,20 @@
 /* MENOS ES MÁS */
 
+.tips {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.tips__btn {
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: $verde-5;
+}
+.tips__img {
+    width: 100px;
+}
+
 
 /*presioname*/
 .scale-down-center {
