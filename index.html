@@ -63,52 +63,56 @@
 
     <!-- cuerpo ---------------------------------------------->
     <!-- portada -->
-    <main class="container-fluid">        
-        <section class="row portada">
-            <div class="col-12 fondoInicio d-flex justify-content-center align-items-center">
-                <div class="titulo animate__animated animate__bounce">
-                    <h1 class="portada__h1">Pasos verdes</h1>        
-                    <h2 class="portada__h2">Pequeños pasos para grandes cambios</h2>
+    <div id="index">
+
+        <main class="container-fluid">        
+            <section class="row portada">
+                <div class="col-12 fondoInicio d-flex justify-content-center align-items-center">
+                    <div class="titulo animate__animated animate__bounce">
+                        <h1 class="portada__h1 sombra">Pasos verdes</h1>        
+                        <h2 class="portada__h2 sombra">Pequeños pasos para grandes cambios</h2>
+                    </div>
                 </div>
+            </section>
+        </main>
+        <!-- / portada -->
+
+        
+        <!-- sección links a páginas -->
+        <section class="seccionPaginas">
+            <div class="col-12">
+
+                <!-- texto -->
+                <div class="col-12 seccionPaginas_texto">
+                    <p class="">Conoce cómo</p>
+                </div>
+                <!-- / texto -->
+
+                <!-- links -->
+                <div class="col-12 d-flex flex-column flex-md-row justify-content-center align-items-center seccionPaginas__links">
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <a href="pages/lastresr.html" class="btn btn-lg">Las Tres R</a>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <a href="pages/compostar.html" class="btn btn-lg seccionPaginas__a--margin">Compostar</a>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <a class="btn btn-lg">Menos es más</a>
+                    </div>
+                </div>
+                <!-- / links -->
+
             </div>
         </section>
-    </main>
-    <!-- / portada -->
+        <!-- / sección links a páginas -->
 
-    
-    <!-- sección links a páginas -->
-    <section class="seccionPaginas">
-        <div class="col-12">
-
-            <!-- texto -->
-            <div class="col-12">
-                <p class="display-5 text-center fw-bold mb-xs-2 seccionPaginas__p">Conoce cómo</p>
-            </div>
-            <!-- / texto -->
-
-            <!-- links -->
-            <div class="col-12 d-flex flex-column flex-md-row justify-content-center align-items-center">
-                <div class="col-12 col-md-4 col-lg-3 text-center">
-                    <a href="pages/lastresr.html" class="btn btn-lg seccionPaginas__a">Las Tres R</a>
-                </div>
-                <div class="col-12 col-md-4 col-lg-3 text-center">
-                    <a href="pages/compostar.html" class="btn btn-lg seccionPaginas__a seccionPaginas__a--margin">Compostar</a>
-                </div>
-                <div class="col-12 col-md-4 col-lg-3 text-center">
-                    <a href="pages/menosesmas.html" class="btn btn-lg seccionPaginas__a">Menos es más</a>
-                </div>
-            </div>
-            <!-- / links -->
-
-        </div>
-    </section>
-    <!-- / sección links a páginas -->
+    </div>
     <!-- / cuerpo ---------------------------------------------->
 
 
     <!-- footer ---------------------------------------------->
     <footer>
-        <div class="container-fluid">
+        <div class="container-fluid g-0">
             <!-- fondo -->
             <!-- <div class="col-12">
                 <img src="assets/images/fondito.png" width="100%" height="" alt="">
@@ -116,8 +120,8 @@
             <!-- / fondo -->
 
             <!-- frase -->
-            <div class="col-12 text-light container-fluid" style="background-color: #558b2f;">
-                <p class="text-center py-4 fs-3">Todo puede tener otra vida, ¡RECICLA!</p>
+            <div class="col-12 container-fluid footer__frase g-0">
+                <p class="sombra">Todo puede tener otra vida, ¡RECICLA!</p>
             </div>
             <!-- / frase -->
 
@@ -128,22 +132,22 @@
                 <div class="row col-12 col-lg-7 d-flex justify-content-evenly justify-content-lg-start gx-0">
 
                     <!-- web -->
-                    <div class="col-12 col-md-6 text-center">
+                    <div class="col-12 col-md-6 text-center footer_web">
                         <div class="col-12">
                             <img src="assets/images/index/logo.png" width="50" alt="">
                             <p>&copy; Pasos Verdes</p>
                         </div>
                         <ul class="col-12 ps-0 d-flex justify-content-center">
-                            <li><a href="#" class="p-2 fs-5 text-success"><i class="bi bi-youtube"></i></a></li>
-                            <li><a href="#" class="p-2 fs-5 text-success"><i class="bi bi-instagram"></i></a></li>
-                            <li><a href="#" class="p-2 fs-5 text-success"><i class="bi bi-facebook"></i></a></li>
-                            <li><a href="#" class="p-2 fs-5 text-success"><i class="bi bi-twitter"></i></a></li>
+                            <li><a href="#" class=""><i class="bi bi-youtube "></i></a></li>
+                            <li><a href="#" class=""><i class="bi bi-instagram"></i></a></li>
+                            <li><a href="#" class=""><i class="bi bi-facebook"></i></a></li>
+                            <li><a href="#" class=""><i class="bi bi-twitter"></i></a></li>
                         </ul>
                     </div>
                     <!-- / web-->
 
-                    <!-- links -->
-                    <div class="col-12 col-md-4 text-center text-md-start py-4 py-md-0">
+                    <!-- about -->
+                    <div class="col-12 col-md-4 py-md-0 footer__about">
                         <p class="mb-0">About</p>
                         <ul class="ps-0">
                             <li><a href="index.html" class="text-secondary">Inicio</a></li>
@@ -153,7 +157,7 @@
                             <li><a href="pages/contacto.html" class="text-secondary">Contacto</a></li>
                         </ul>
                     </div>
-                    <!-- / links -->
+                    <!-- / about -->
 
                 </div>
                 <!-- / pasos verdes web -->

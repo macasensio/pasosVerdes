@@ -8,9 +8,9 @@
 .lasTresR h1 {
     @extend .align-center;
     padding: 50px 0px 30px 0px;
-    color: $verde-light;
+    color: $verde-3;
     font-size: 3rem;
-    text-shadow: 1px 1px $verde-dark;
+    text-shadow: 1px 1px $verde-1;
 }
 .intro__texto p {
     text-align: justify;
@@ -26,7 +26,7 @@
 }
 
 .verdeBold {
-    color: $verde-dark;
+    color: $verde-1;
     font-weight: bold
 }
 

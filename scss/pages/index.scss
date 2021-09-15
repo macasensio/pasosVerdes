@@ -3,7 +3,7 @@
 /* portada */
 .portada {
     height: 40vh;
-    background-image: url("../assets/images/index/img-inicio.jpg");
+    background-image: url("../assets/images/index/mano-tierra.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -11,29 +11,41 @@
 
 .portada__h1 {
     font-weight: bold;
-    font-size: 2.5rem;
-    text-align: center;
+    font-size: 3rem;
+    text-align: center;    
+    color: #e6e6e6;
+
 }
 .portada__h2 {
     font-style: italic;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     text-align: center;
+    color: #e6e6e6;
 }
 
 /* sección links a páginas */
 .seccionPaginas { 
     margin: 3rem 0;
 }
-.seccionPaginas__p {
+
+.seccionPaginas_texto p {
     margin-bottom: 3rem;
-}
-.seccionPaginas__a {
+    font-size: 2rem;
     font-weight: bold;
-    background-color: $verde-light;
+    text-align: center;
+}
+
+
+.seccionPaginas__links div {
+    text-align: center;
+}
+.seccionPaginas__links div a {
+    font-weight: bold;
+    background-color: $verde-5;
     color: #000000;
 }
-.seccionPaginas__a:hover {
-    background-color: $verde-dark;
+.seccionPaginas__links div a:hover {
+    background-color: $verde-1;
     color: #ffffff;
 }
 .seccionPaginas__a--margin {
@@ -76,7 +88,7 @@
 /* Extra Large */
 @media screen and (min-width: 1200px) {
     .portada {
-        height: 80vh;
+        height: 70vh;
     }
     .portada__h1 {
         font-size: 5rem;
@@ -84,6 +96,10 @@
 
     .seccionPaginas { 
         margin: 5rem 0;
+    }
+
+    .seccionPaginas_texto p {
+        font-size: 2.5rem;
     }
 }
 

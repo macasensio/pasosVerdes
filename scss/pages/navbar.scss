@@ -9,9 +9,10 @@
 .navbar__logo:hover {
     transform: rotate(-180deg);
 }
+
 .menu__ul {
     margin: 20px 0px;
-    //text-align: center;
+    text-align: center;
 }
 .menu__ul > li a {    
     margin: 10px 0px;
@@ -19,11 +20,11 @@
 .menu__ul > li a, .submenu__ul a {
     display: inline-block;
     font-size: $menu-fontSize;
-    color: $verde-ppal;
+    color: $verde-2;
     text-decoration: none;
 
     &:hover {
-        color: $verde-ppal;
+        color: $verde-1;
         text-decoration: underline;
     }
 }
@@ -38,7 +39,7 @@
 
 .menu__botonMobile {
     font-size: 2rem;
-    color: $verde-ppal;
+    color: $verde-2;
 }
 
 /******** media querys ********/

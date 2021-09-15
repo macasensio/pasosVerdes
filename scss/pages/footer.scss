@@ -1,16 +1,29 @@
 /* FOOTER */
 
 .footer__frase {
-    background-color: $verde-ppal;
+    background-color: $verde-2;
 }
 .footer__frase p {
     text-align: center;
-    padding: 20px 0px;
+    padding: 28px 0px;
     font-size: 1.7rem;
+    color: #ffffff;
+    
 }
 
 footer li {
     list-style: none;
+}
+
+.footer_web a {
+    padding: 0.5rem;
+    font-size: 1.25rem;
+    color: $verde-2;
+}
+
+.footer__about {
+    text-align: center;
+    padding: 1.5rem;
 }
 
 $coloresFooter: (
@@ -38,7 +51,9 @@ $coloresFooter: (
 
 /* Medium */
 @media screen and (min-width: 768px) {
-
+    .footer__about {
+        text-align: left;
+    }
 }
 
 /* Large */
