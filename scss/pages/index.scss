@@ -46,7 +46,7 @@
     & a {
         font-weight: bold;
         background-color: $verde-5;
-        color: #000000;
+        color: $negro;
         transition: background-color .5s;
         &:hover{
             background-color: $verde-1;

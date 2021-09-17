@@ -1,96 +1,115 @@
 /* LAS TRES R*/
 
 /* intro */
+.lasTresR {
+    h1 {
+        text-align: center;
+        padding: 50px 0px 30px 0px;
+        color: $verde-3;
+        font-size: 3rem;
+        text-shadow: 1px 1px $verde-1;
+    }
+}
 
-.align-center {
-    text-align: center;
-}
-.lasTresR h1 {
-    @extend .align-center;
-    padding: 50px 0px 30px 0px;
-    color: $verde-3;
-    font-size: 3rem;
-    text-shadow: 1px 1px $verde-1;
-}
-.intro__texto p {
+.lasTresR__intro p {
     text-align: justify;
     margin: 0;
+    font-size: 1.1rem;
 }
-.intro__img {
-    @extend .align-center;
+.lasTresR__intro__img {
+    text-align: center;
 }
 
-.intro__img img {
-    width: 200px;
+.lasTresR__intro__img img {
+    width: 240px;
     margin-top: 50px;
 }
 
 .verdeBold {
     color: $verde-1;
-    font-weight: bold
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px $verde-5;
 }
 
 /* cards */
-.main-lastresr {
-    margin: 50px 0px;
+.tresRCards {
+    margin-bottom: 100px;
 }
 
-.tresRCards img {
-    width: 120px;
-    margin: auto;
-}
 
-.reducir__card > div, .reciclar__card > div, .reutilizar__card > div {
+.tresRCards__reducir > div, .tresRCards__reciclar > div, .tresRCards__reutilizar > div {
     border: none;
     background-color: transparent;
     padding: 20px 0px;
+
+    p {
+        font-size: 1.1rem;        
+        text-align: justify;
+    }
+    a {
+        background-color: $verde-2;
+        color: #ffffff;
+        font-size: 1.1rem;
+        font-weight: bold;
+        width: 100%;
+        &:hover {
+            background-color: $verde-4;
+            color: $negro;
+        }
+    }
+}
+
+.tresRCards img {
+    width: 130px;
+    margin: auto;
+    transition: all 3s;
 }
 
 
 /*********** media query ***********/
 /* X-Small */
 @media screen and (max-width: 576px) {
-    .intro__img img {
-        background-color: red;
-    }
+    
 }
 
 /* Small */
 @media screen and (min-width: 576px) {
-    .intro__img img {
-        background-color: blue;
-    }
+    
 }
 
 /* Medium */
 @media screen and (min-width: 768px) {
-    .intro__img img {
+    .lasTresR__intro__img img {
         margin-top: 0px;
-        background-color: red;
+    }
+    .tresRCards__reducir > div, .tresRCards__reciclar > div, .tresRCards__reutilizar > div {
+        width: 75%;
+        margin: auto;
     }
 }
 
 /* Large */
 @media screen and (min-width: 992px) {
-    .intro__img img {
-        background-color: blue;
-    }
+    .tresRCards__reducir > div, .tresRCards__reciclar > div, .tresRCards__reutilizar > div {
+        width: 100%;
+    }    
 }
 
 /* Extra large */
-@media screen and (min-width: 1200px) {
-    .intro__img img {
-        background-color: red;
+@media screen and (min-width: 1200px) {    
+    .lasTresR {
+        width: 75%;
     }
+    .tresRCards > div:hover img {
+        transform: rotate(-90deg);
+    }
+    
 }
 
 /* Extra large large */
 @media screen and (min-width: 1400px) {
-    .intro__img img {
-        background-color: blue;
-    }
-    
-    .reducir__card > div:hover , .reciclar__card > div:hover , .reutilizar__card > div:hover {
-        box-shadow: 1px 1px #85bb5c;
-    }
-}
+    // .tresRCards__reducir > div:hover img , .tresRCards__reciclar > div:hover img , .tresRCards__reutilizar > div:hover img {
+    //     transform: rotate(-180deg);
+    // }
+} 

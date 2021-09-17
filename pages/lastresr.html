@@ -67,23 +67,23 @@
         <div class="container-fluid mtop-100 lasTresR">
 
             <!-- título página -->
-            <div class="text-center">
+            <div class="">
                 <h1>Las Tres R</h1>
             </div>
             <!-- / título página -->
 
             <!-- intro -->
-            <div class="row col-12 d-flex justify-content-evenly align-items-center g-0">
+            <div class="row col-12 d-flex justify-content-evenly align-items-center g-0 lasTresR__intro">
                 <!-- texto -->
-                <div class="row col-12 col-md-8 intro__texto">
+                <div class="row col-12 col-md-8">
                     <p>Producir residuos es una acción inherente a la condición del ser humano. Pero los complejos sistemas de producción y consumo han hecho que, en los últimos tiempos, la generación de desechos se haya disparado de forma alarmante, con la particularidad de que los productos que adquirimos están conformados en muchos casos por materiales que no se degradan fácilmente y que, de no ser gestionados de forma correcta, supondrán una seria amenaza para nuestro entorno y salud.</br><br>
-                    El ciudadano puede ayudar en gran medida a hacer una gestión más sostenible de los residuos que produce cada día. La clave, siempre a su alcance, reside en las tres erres: <span class="verdeBold">Reducir, Reutilizar y Reciclar</span>.</p>
+                    El ciudadano puede ayudar en gran medida a hacer una gestión más sostenible de los residuos que produce cada día. La clave, siempre a su alcance, reside en las tres R: <span class="verdeBold">Reducir, Reutilizar y Reciclar</span>.</p>
                 </div>
                 <!-- / texto -->
 
                 <!-- imagen -->
                 <div class="col-12 col-md-3">
-                    <div class="intro__img" data-aos="flip-up" data-aos-duration="3000">
+                    <div class="lasTresR__intro__img animate__animated animate__bounce">
                         <img src="../assets/images/lastresr/recycle-bin.png" alt="">
                     </div>
                 </div>
@@ -91,48 +91,126 @@
             </div>
             <!-- / intro -->
 
-            <main class="main-lastresr">
+            <main class="">
                 <!-- tres r cards -->
                 <div class="row tresRCards d-flex justify-content-evenly align-items-start">
 
                     <!-- reducir card -->
-                    <div class="col-10 col-lg-6 col-xxl-3 reducir__card">
-                        <div class="card text-center" data-aos="fade-right" data-aos-duration="3000">
+                    <div class="col-12 col-lg-6 col-xxl-4 tresRCards__reducir">
+                        <div class="card text-center">
                             <img src="../assets/images/lastresr/reduce.png" class="" alt="...">
                             <div class="card-body">
                                 <h5 class="">Reducir</h5>
-                                <p class="">Se refiere principalmente a consumir menos, evitar comprar objetos nuevos o de moda que seguramente terminarán en la basura, y por lo tanto, contaminando. También se refiere a disminuir nuestro gasto de agua y energía, ya que las fuentes actuales son altamente contaminantes. De este modo agotaremos menos recursos, generaremos menos contaminación y basura y, desde luego, ganaremos en calidad de vida. Si viajamos más el transporte público o en bicicleta, usamos pilas recargables, apagamos las luces y desconectamos los aparatos eléctricos cuando no los utilizamos, estaremos contribuyendo al ahorro energético.</p>
-                                <a href="#" class="btn btn-success">Conocer más</a>
+                                <p class="">Se refiere principalmente a consumir menos, evitar comprar objetos nuevos o de moda que seguramente terminarán en la basura, y por lo tanto, contaminando. También se refiere a disminuir nuestro gasto de agua y energía, ya que las fuentes actuales son altamente contaminantes. </p>
+                                <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#myModal1">Leer más</a>
+                                <!-- Modal -->
+                                <div class="modal fade" id="myModal1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                    <!-- modal dialog -->
+                                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                                        <!-- modal content -->
+                                        <div class="modal-content">
+                                            <!-- modal header -->
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="staticBackdropLabel">Reducir</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <!-- / modal header -->
+                                            <!-- modal body -->
+                                            <div class="modal-body">
+                                                <p>De este modo agotaremos menos recursos, generaremos menos contaminación y basura y, desde luego, ganaremos en calidad de vida. Si viajamos más el transporte público o en bicicleta, usamos pilas recargables, apagamos las luces y desconectamos los aparatos eléctricos cuando no los utilizamos, estaremos contribuyendo al ahorro energético.</p>
+                                            </div>
+                                            <!-- / modal body -->
+                                            <!-- modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                            <!-- / modal footer -->
+                                        </div>
+                                        <!-- / modal content -->
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <!-- / reducir card -->
 
-                    <!-- reciclar card -->
-                    <div class="col-10 col-lg-6 col-xxl-3 reciclar__card">
-                        <div class="card text-center" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <!-- reutilizar card -->
+                    <div class="col-10 col-lg-6 col-xxl-4 tresRCards__reciclar">
+                        <div class="card text-center">
                             <img src="../assets/images/lastresr/reuse.png" class="" alt="...">
                             <div class="card-body">
                                 <h5 class="">Reutilizar</h5>
-                                <p class="">Es otra de las actitudes que necesitamos poner en práctica para disminuir la contaminación y dejar de degradar el ambiente. Es necesario utilizar al máximo las cosas que ya tenemos, sin necesidad de tirarlas o destruirlas, es decir; alargar la vida de cada producto. La mayoría de los bienes pueden tener más de una vida útil, ya sea reparándolos o utilizando la imaginación para darles otro uso y de este modo evitar comprar cosas nuevas, sobre todo aquellas que están hechas de materiales contaminantes como el plástico o unicel.</p>
-                                <a href="#" class="btn btn-success">Conocer más</a>
+                                <p class="">Es otra de las actitudes que necesitamos poner en práctica para disminuir la contaminación y dejar de degradar el ambiente. Es necesario utilizar al máximo las cosas que ya tenemos, sin necesidad de tirarlas o destruirlas, es decir; alargar la vida de cada producto.</p>
+                                <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#myModal2">Leer más</a>
+                                <!-- Modal -->
+                                <div class="modal fade" id="myModal2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                    <!-- modal dialog -->
+                                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                                        <!-- modal content -->
+                                        <div class="modal-content">
+                                            <!-- modal header -->
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="staticBackdropLabel">Reutilizar</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <!-- / modal header -->
+                                            <!-- modal body -->
+                                            <div class="modal-body">
+                                                <p>La mayoría de los bienes pueden tener más de una vida útil, ya sea reparándolos o utilizando la imaginación para darles otro uso y de este modo evitar comprar cosas nuevas, sobre todo aquellas que están hechas de materiales contaminantes como el plástico o unicel.</p>
+                                            </div>
+                                            <!-- / modal body -->
+                                            <!-- modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                            <!-- / modal footer -->
+                                        </div>
+                                        <!-- / modal content -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / reutilizar card -->
+
+                    <!-- reciclar card -->
+                    <div class="col-10 col-lg-6 col-xxl-4 tresRCards__reutilizar">
+                        <div class="card text-center">
+                            <img src="../assets/images/lastresr/recycle.png" class="" alt="...">
+                            <div class="card-body">
+                                <h5 class="">Reciclar</h5>
+                                <p class="">Se trata de rescatar lo posible de un material que ya no sirve para nada (comúnmente llamado basura) y convertirlo en un producto nuevo. Es una forma en la que se reincorpora la materia prima al ciclo los materiales para crear nuevas cosas sin necesidad de gastos energéticos y sin aumentar el volumen de residuos.</p>
+                                <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#myModal3">Leer más</a>
+                                <!-- Modal -->
+                                <div class="modal fade" id="myModal3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                    <!-- modal dialog -->
+                                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                                        <!-- modal content -->
+                                        <div class="modal-content">
+                                            <!-- modal header -->
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="staticBackdropLabel">Reciclar</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <!-- / modal header -->
+                                            <!-- modal body -->
+                                            <div class="modal-body">
+                                                <p>El reciclaje ha de volverse un hábito, para poder conseguir un equilibrio entre lo que se produce, lo que se consume y lo que se desecha, intentando siempre generar la menor cantidad posible de basura. Reciclar vidrio, materia orgánica, llantas o  plástico, son algunos ejemplos.</p>
+                                            </div>
+                                            <!-- / modal body -->
+                                            <!-- modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                            <!-- / modal footer -->
+                                        </div>
+                                        <!-- / modal content -->
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <!-- / reciclar card -->
-
-                    <!-- reutilizar card -->
-                    <div class="col-10 col-lg-6 col-xxl-3 reutilizar__card">
-                        <div class="card text-center" data-aos="fade-left" data-aos-duration="3000">
-                            <img src="../assets/images/lastresr/recycle.png" class="" alt="...">
-                            <div class="card-body">
-                                <h5 class="">Reciclar</h5>
-                                <p class="">Se trata de rescatar lo posible de un material que ya no sirve para nada (comúnmente llamado basura) y convertirlo en un producto nuevo. Es una forma en la que se reincorpora la materia prima al ciclo los materiales para crear nuevas cosas sin necesidad de gastos energéticos y sin aumentar el volumen de residuos. <!--El reciclaje ha de volverse un hábito, para poder conseguir un equilibrio entre lo que se produce, lo que se consume y lo que se desecha, intentando siempre generar la menor cantidad posible de basura. Reciclar vidrio, materia orgánica, llantas o  plástico, son algunos ejemplos.--></p>
-                                <a href="#" class="btn btn-success">Conocer más</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- / reducir card -->
                 </div>
                 <!-- / tres r cards -->
             </main>
@@ -163,68 +241,62 @@
 
     <!-- footer ---------------------------------------------->
     <footer>
-        <div class="container-fluid">
-            <!-- fondo -->
-            <div class="col-12">
-                <!-- <img src="../assets/images/cesped.png" width="" height="100" alt="">
-                <div class="pasto">&nbsp;holaaa</div>
-            </div>  -->
-            <!-- / fondo -->
+        <div class="container-fluid g-0">
 
             <!-- frase -->
-            <div class="col-12 text-light container-fluid footer__frase">
-                <p>Todo puede tener otra vida, ¡RECICLA!</p>
+            <div class="col-12 container-fluid footer__frase g-0">
+                <p class="sombra">Todo puede tener otra vida, ¡RECICLA!</p>
             </div>
             <!-- / frase -->
 
             <!-- cuerpo footer -->
-            <div class="row col-12 w-75 mx-auto d-flex align-items-center py-5">
+            <div class="row col-12 d-flex align-items-center footer__cuerpo">
 
                 <!-- pasos verdes web -->
                 <div class="row col-12 col-lg-7 d-flex justify-content-evenly justify-content-lg-start gx-0">
 
                     <!-- web -->
-                    <div class="col-12 col-md-6 text-center">
+                    <div class="col-12 col-md-6 footer_web">
                         <div class="col-12">
                             <img src="../assets/images/index/logo.png" width="50" alt="">
                             <p>&copy; Pasos Verdes</p>
                         </div>
                         <ul class="col-12 ps-0 d-flex justify-content-center">
-                            <li><a href="#" class="p-2 fs-5 color-redes"><i class="bi bi-youtube"></i></a></li>
-                            <li><a href="#" class="p-2 fs-5 color-redes"><i class="bi bi-instagram"></i></a></li>
-                            <li><a href="#" class="p-2 fs-5 color-redes"><i class="bi bi-facebook"></i></a></li>
-                            <li><a href="#" class="p-2 fs-5 color-redes"><i class="bi bi-twitter"></i></a></li>
+                            <li><a href="#" class=""><i class="bi bi-youtube "></i></a></li>
+                            <li><a href="#" class=""><i class="bi bi-instagram"></i></a></li>
+                            <li><a href="#" class=""><i class="bi bi-facebook"></i></a></li>
+                            <li><a href="#" class=""><i class="bi bi-twitter"></i></a></li>
                         </ul>
                     </div>
                     <!-- / web-->
 
-                    <!-- links -->
-                    <div class="col-12 col-md-4 text-center text-md-start py-4 py-md-0">
-                        <p class="mb-0">About</p>
-                        <ul class="ps-0">
-                            <li><a href="../index.html" class="color-secciones">Inicio</a></li>
-                            <li><a href="lastresr.html" class="color-secciones">Las Tres R</a></li>
-                            <li><a href="compostar.html" class="color-secciones">Compostar</a></li>
-                            <li><a href="menosesmas.html" class="color-secciones">Menos es más</a></li>
-                            <li><a href="contacto.html" class="color-secciones">Contacto</a></li>
+                    <!-- about -->
+                    <div class="col-12 col-md-4 footer__about">
+                        <p class="">About</p>
+                        <ul class="">
+                            <li><a href="../index.html" class="">Inicio</a></li>
+                            <li><a href="lastresr.html" class="">Las Tres R</a></li>
+                            <li><a href="compostar.html" class="">Compostar</a></li>
+                            <li><a href="menosesmas.html" class="">Menos es más</a></li>
+                            <li><a href="contacto.html" class="">Contacto</a></li>
                         </ul>
                     </div>
-                    <!-- / links -->
+                    <!-- / about -->
 
                 </div>
                 <!-- / pasos verdes web -->
 
 
                 <!-- newsletter -->
-                <div class="col-12 col-md-8 col-lg-5 bg-md-dark mx-auto col-lg-5 text-center pt-md-5 pt-lg-0">
+                <div class="col-12 col-md-8 col-lg-5 bg-md-dark col-lg-5 pt-md-5 pt-lg-0 footer__newsletter">
                     <div class="col-lg-10">
                         <p class="">¿Querés suscribirte a nuestro Newsletter?</p>
-                        <div class="row col-12">
+                        <div class="row col-12 g-0">
                             <div class="col-8 g-0">
                                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@ejemplo.com">
                             </div>
                             <div class="col-4 g-0">
-                                <a href="#" class="btn btn-primary w-100">Enviar</a>
+                                <a href="#" class="btn btn-primary">Enviar</a>
                             </div>
                         </div>
                     </div>
@@ -236,7 +308,7 @@
 
 
             <!-- copyright -->
-            <div class="col-12 border-top pt-3">
+            <div class="col-12 footer__copyright">
                 <p class="text-center">&copy; Todos los derechos reservados | Asensio M.</p>
             </div>
             <!-- /copyright -->

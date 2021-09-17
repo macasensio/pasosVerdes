@@ -12,7 +12,6 @@
 }
 .footer__cuerpo {
     padding: 3rem;
-    width: 75%;
     margin: auto;
 }
 footer li {
@@ -49,16 +48,6 @@ footer li {
     
 }
 
-// $coloresFooter: (
-//     redes: #198754,
-//     secciones: #6c757d
-// );
-
-// @each $elemento, $color in $coloresFooter {
-//     .color-#{$elemento} {
-//         color: $color;
-//     }
-// }
 
 .footer__newsletter {
     text-align: center;
@@ -72,7 +61,7 @@ footer li {
         transition: background-color .5s;
         &:hover {
             background-color: $verde-5;
-            color: #000000;
+            color: $negro;
         }
     }
 }
@@ -93,7 +82,9 @@ footer li {
 
 /* Small */
 @media screen and (min-width: 576px) {
-
+    .footer__cuerpo {
+        width: 75%;
+    }
 }
 
 /* Medium */

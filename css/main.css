@@ -9,7 +9,7 @@
 .sombra {
   text-shadow: 2px 2px 2px #152119; }
 
-/* font */
+/* colores */
 /* COMPOSTAR */
 #compostar h1 {
   display: none; }
@@ -91,7 +91,6 @@
 
 .footer__cuerpo {
   padding: 3rem;
-  width: 75%;
   margin: auto; }
 
 footer li {
@@ -129,7 +128,7 @@ footer li {
     transition: background-color .5s; }
     .footer__newsletter a:hover {
       background-color: #dfe7c3;
-      color: #000000; }
+      color: #212529; }
 
 .footer__copyright {
   border-top: 1px solid #dfe7c3; }
@@ -139,6 +138,10 @@ footer li {
 /*********** media query ***********/
 /* X-Small */
 /* Small */
+@media screen and (min-width: 576px) {
+  .footer__cuerpo {
+    width: 75%; } }
+
 /* Medium */
 @media screen and (min-width: 768px) {
   .footer__about {
@@ -189,7 +192,7 @@ footer li {
   .seccionPaginas__links div a {
     font-weight: bold;
     background-color: #dfe7c3;
-    color: #000000;
+    color: #212529;
     transition: background-color .5s; }
     .seccionPaginas__links div a:hover {
       background-color: #255d00;
@@ -223,74 +226,81 @@ footer li {
 /* Extra large large */
 /* LAS TRES R*/
 /* intro */
-.align-center, .lasTresR h1, .intro__img {
-  text-align: center; }
-
 .lasTresR h1 {
+  text-align: center;
   padding: 50px 0px 30px 0px;
   color: #85bb5c;
   font-size: 3rem;
   text-shadow: 1px 1px #255d00; }
 
-.intro__texto p {
+.lasTresR__intro p {
   text-align: justify;
-  margin: 0; }
+  margin: 0;
+  font-size: 1.1rem; }
 
-.intro__img img {
-  width: 200px;
+.lasTresR__intro__img {
+  text-align: center; }
+
+.lasTresR__intro__img img {
+  width: 240px;
   margin-top: 50px; }
 
 .verdeBold {
   color: #255d00;
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px #dfe7c3; }
 
 /* cards */
-.main-lastresr {
-  margin: 50px 0px; }
+.tresRCards {
+  margin-bottom: 100px; }
 
-.tresRCards img {
-  width: 120px;
-  margin: auto; }
-
-.reducir__card > div, .reciclar__card > div, .reutilizar__card > div {
+.tresRCards__reducir > div, .tresRCards__reciclar > div, .tresRCards__reutilizar > div {
   border: none;
   background-color: transparent;
   padding: 20px 0px; }
+  .tresRCards__reducir > div p, .tresRCards__reciclar > div p, .tresRCards__reutilizar > div p {
+    font-size: 1.1rem;
+    text-align: justify; }
+  .tresRCards__reducir > div a, .tresRCards__reciclar > div a, .tresRCards__reutilizar > div a {
+    background-color: #558b2f;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 100%; }
+    .tresRCards__reducir > div a:hover, .tresRCards__reciclar > div a:hover, .tresRCards__reutilizar > div a:hover {
+      background-color: #cbdc8b;
+      color: #212529; }
+
+.tresRCards img {
+  width: 130px;
+  margin: auto;
+  transition: all 3s; }
 
 /*********** media query ***********/
 /* X-Small */
-@media screen and (max-width: 576px) {
-  .intro__img img {
-    background-color: red; } }
-
 /* Small */
-@media screen and (min-width: 576px) {
-  .intro__img img {
-    background-color: blue; } }
-
 /* Medium */
 @media screen and (min-width: 768px) {
-  .intro__img img {
-    margin-top: 0px;
-    background-color: red; } }
+  .lasTresR__intro__img img {
+    margin-top: 0px; }
+  .tresRCards__reducir > div, .tresRCards__reciclar > div, .tresRCards__reutilizar > div {
+    width: 75%;
+    margin: auto; } }
 
 /* Large */
 @media screen and (min-width: 992px) {
-  .intro__img img {
-    background-color: blue; } }
+  .tresRCards__reducir > div, .tresRCards__reciclar > div, .tresRCards__reutilizar > div {
+    width: 100%; } }
 
 /* Extra large */
 @media screen and (min-width: 1200px) {
-  .intro__img img {
-    background-color: red; } }
+  .lasTresR {
+    width: 75%; }
+  .tresRCards > div:hover img {
+    transform: rotate(-90deg); } }
 
 /* Extra large large */
-@media screen and (min-width: 1400px) {
-  .intro__img img {
-    background-color: blue; }
-  .reducir__card > div:hover, .reciclar__card > div:hover, .reutilizar__card > div:hover {
-    box-shadow: 1px 1px #85bb5c; } }
-
 /* MENOS ES MÁS */
 .tips {
   text-align: center;
