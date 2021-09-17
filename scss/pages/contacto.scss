@@ -1,18 +1,54 @@
 /* CONTACTO */
 
-#contactPage {
-    background: linear-gradient(#79c46f, white);
-}
-#contacto {
-    width: 40%;
-    margin: 40px auto;
-    font-size: 1.2rem;
-    background: white;
-}
-#contacto form {
-    text-align: center;
+.contacto__titulo {
+    h1 {
+        text-align: center;
+        padding: 30px 0px 10px 0px;
+        color: $verde-3;
+        font-size: 3rem;
+        text-shadow: 1px 1px $verde-1;
+        margin: 0;
+    }
 }
 
+.contacto__img img {
+    width: 400px;
+}
+
+.contacto__form {
+    margin: 3.2rem auto;
+}
+
+.contacto__form__dato {
+    margin-bottom: 1rem;
+    label {
+        color: $verde-1;
+        font-weight: bold;
+        text-shadow: 1px 1px $verde-5;
+    }
+}
+
+.contacto__form__nl {
+    margin-bottom: 1rem;
+    label {
+        color: $verde-1;
+        font-style: italic;
+    }
+    input:checked {
+        background-color: $verde-1;
+        border: none;
+    }
+}
+
+.contacto__form__btn button {
+    background-color: $verde-5;
+    border: none;
+    color: $negro;
+    font-weight: bold;
+    &:hover {
+        background-color: $verde-1;
+    }
+}
 
 /*********** media query ***********/
 /* X-Small */

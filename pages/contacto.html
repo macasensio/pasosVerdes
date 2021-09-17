@@ -66,51 +66,51 @@
     <main class="container">
 
         <!-- texto -->
-        <div class="row pt-5">
-            <div class="col-12 text-center">
+        <div class="contacto__titulo">
+            <div class="col-12">
                 <h1>¿Querés ponerte en contacto con nosotros?</h1>
             </div>
         </div>
         <!-- / texto  -->
 
         <!-- formulario -->
-        <div class="row container-fluid my-5 d-flex align-items-center g-0">
+        <div class="row container-fluid d-flex align-items-center g-0">
 
             <!-- img -->
-            <div class="col-lg-5 d-none d-lg-block">
+            <div class="col-lg-5 d-none d-lg-block contacto__img">
                 <div class="col-lg-9">
-                    <img src="../assets/images/contacto/contact.jpg" alt="" width="100%">
+                    <img src="../assets/images/contacto/contact.jpg" alt="">
                 </div>                
             </div>
             <!-- / img  -->
 
             <!-- Formulario de contacto -->
-            <div class="col-8 col-sm-10 col-lg-6 mx-auto">
+            <div class="col-8 col-sm-10 col-lg-6 contacto__form">
                 <form action="#">
                     <!-- Nombre -->
-                    <div class="mb-3">
+                    <div class="contacto__form__dato">
                         <label for="formNombre" class="form-label">Nombre</label>
                         <input type="email" class="form-control" id="formNombre">
                     </div>
                     <!-- Email -->
-                    <div class="mb-3">
+                    <div class="contacto__form__dato">
                         <label for="formEmail" class="form-label">Email</label>
                         <input type="email" class="form-control" id="formEmail">
                     </div>
                     <!-- Mensaje -->
-                    <div class="mb-3">
+                    <div class="contacto__form__dato">
                         <label for="formMensaje" class="form-label">Mensaje</label>
                         <textarea class="form-control" id="formMensaje" rows="3"></textarea>
                     </div>
                     <!-- Newsletter -->
-                    <div class="form-check mb-3">
+                    <div class="form-check contacto__form__nl">
                         <input class="form-check-input" type="checkbox" value="" id="formCheckbox" checked>
                         <label class="form-check-label" for="formCheckbox">
                             Suscribirme al Newsletter
                         </label>
                     </div>
                     <!-- Botón Enviar -->
-                    <div class="d-grid">
+                    <div class="d-grid contacto__form__btn">
                         <button class="btn btn-primary" type="button">Enviar</button>
                     </div>
                 </form>

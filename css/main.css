@@ -126,17 +126,43 @@
     width: 60%; } }
 
 /* CONTACTO */
-#contactPage {
-  background: linear-gradient(#79c46f, white); }
+.contacto__titulo h1 {
+  text-align: center;
+  padding: 30px 0px 10px 0px;
+  color: #85bb5c;
+  font-size: 3rem;
+  text-shadow: 1px 1px #255d00;
+  margin: 0; }
 
-#contacto {
-  width: 40%;
-  margin: 40px auto;
-  font-size: 1.2rem;
-  background: white; }
+.contacto__img img {
+  width: 400px; }
 
-#contacto form {
-  text-align: center; }
+.contacto__form {
+  margin: 3.2rem auto; }
+
+.contacto__form__dato {
+  margin-bottom: 1rem; }
+  .contacto__form__dato label {
+    color: #255d00;
+    font-weight: bold;
+    text-shadow: 1px 1px #dfe7c3; }
+
+.contacto__form__nl {
+  margin-bottom: 1rem; }
+  .contacto__form__nl label {
+    color: #255d00;
+    font-style: italic; }
+  .contacto__form__nl input:checked {
+    background-color: #255d00;
+    border: none; }
+
+.contacto__form__btn button {
+  background-color: #dfe7c3;
+  border: none;
+  color: #212529;
+  font-weight: bold; }
+  .contacto__form__btn button:hover {
+    background-color: #255d00; }
 
 /*********** media query ***********/
 /* X-Small */
