@@ -48,14 +48,14 @@
         text-align: justify;
     }
     a {
-        background-color: $verde-2;
-        color: #ffffff;
+        background-color: $verde-5;
+        color: $negro;
         font-size: 1.1rem;
         font-weight: bold;
         width: 100%;
         &:hover {
-            background-color: $verde-4;
-            color: $negro;
+            background-color: $verde-1;
+            color: #ffffff;
         }
     }
 }
@@ -64,6 +64,22 @@
     width: 130px;
     margin: auto;
     transition: all 3s;
+}
+
+.tresRCards .modal-header {
+    display: inline;
+    text-align: center;
+}
+
+.btn__cerrar {
+    background-color: $verde-1;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    &:hover {
+        background-color: $verde-5;
+        color: $negro;
+    }
 }
 
 

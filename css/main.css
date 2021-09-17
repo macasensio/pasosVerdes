@@ -263,19 +263,32 @@ footer li {
     font-size: 1.1rem;
     text-align: justify; }
   .tresRCards__reducir > div a, .tresRCards__reciclar > div a, .tresRCards__reutilizar > div a {
-    background-color: #558b2f;
-    color: #ffffff;
+    background-color: #dfe7c3;
+    color: #212529;
     font-size: 1.1rem;
     font-weight: bold;
     width: 100%; }
     .tresRCards__reducir > div a:hover, .tresRCards__reciclar > div a:hover, .tresRCards__reutilizar > div a:hover {
-      background-color: #cbdc8b;
-      color: #212529; }
+      background-color: #255d00;
+      color: #ffffff; }
 
 .tresRCards img {
   width: 130px;
   margin: auto;
   transition: all 3s; }
+
+.tresRCards .modal-header {
+  display: inline;
+  text-align: center; }
+
+.btn__cerrar {
+  background-color: #255d00;
+  border: none;
+  color: #ffffff;
+  font-weight: bold; }
+  .btn__cerrar:hover {
+    background-color: #dfe7c3;
+    color: #212529; }
 
 /*********** media query ***********/
 /* X-Small */
