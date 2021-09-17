@@ -3,7 +3,7 @@
 /* estilos */
 .navbar__logo {
     width: 80px;    
-    transition: all 1s;
+    transition: all 3s;
 }
 
 .navbar__logo:hover {
@@ -19,9 +19,10 @@
 }
 .menu__ul > li a, .submenu__ul a {
     display: inline-block;
-    font-size: $menu-fontSize;
+    font-size: 1.3rem;
     color: $verde-2;
     text-decoration: none;
+    //text-shadow: 0.3px 0.3px #152119;
 
     &:hover {
         color: $verde-1;

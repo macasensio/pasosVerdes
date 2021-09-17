@@ -12,6 +12,8 @@
     <link rel="icon" type="icon/png" href="./assets/images/index/logo.png">
     <!-- animate -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Bootstrap íconos -->
@@ -90,13 +92,13 @@
 
                 <!-- links -->
                 <div class="col-12 d-flex flex-column flex-md-row justify-content-center align-items-center seccionPaginas__links">
-                    <div class="col-12 col-md-4 col-lg-3">
+                    <div class="col-12 col-md-4 col-lg-3" data-aos="fade-up-right" data-aos-duration="1000">
                         <a href="pages/lastresr.html" class="btn btn-lg">Las Tres R</a>
                     </div>
-                    <div class="col-12 col-md-4 col-lg-3">
+                    <div class="col-12 col-md-4 col-lg-3"data-aos="fade-up" data-aos-duration="1500">
                         <a href="pages/compostar.html" class="btn btn-lg seccionPaginas__a--margin">Compostar</a>
                     </div>
-                    <div class="col-12 col-md-4 col-lg-3">
+                    <div class="col-12 col-md-4 col-lg-3"data-aos="fade-up-left" data-aos-duration="1800">
                         <a class="btn btn-lg">Menos es más</a>
                     </div>
                 </div>
@@ -113,11 +115,6 @@
     <!-- footer ---------------------------------------------->
     <footer>
         <div class="container-fluid g-0">
-            <!-- fondo -->
-            <!-- <div class="col-12">
-                <img src="assets/images/fondito.png" width="100%" height="" alt="">
-            </div> -->
-            <!-- / fondo -->
 
             <!-- frase -->
             <div class="col-12 container-fluid footer__frase g-0">
@@ -126,13 +123,13 @@
             <!-- / frase -->
 
             <!-- cuerpo footer -->
-            <div class="row col-12 w-75 mx-auto d-flex align-items-center py-5">
+            <div class="row col-12 d-flex align-items-center footer__cuerpo">
 
                 <!-- pasos verdes web -->
                 <div class="row col-12 col-lg-7 d-flex justify-content-evenly justify-content-lg-start gx-0">
 
                     <!-- web -->
-                    <div class="col-12 col-md-6 text-center footer_web">
+                    <div class="col-12 col-md-6 footer_web">
                         <div class="col-12">
                             <img src="assets/images/index/logo.png" width="50" alt="">
                             <p>&copy; Pasos Verdes</p>
@@ -147,14 +144,14 @@
                     <!-- / web-->
 
                     <!-- about -->
-                    <div class="col-12 col-md-4 py-md-0 footer__about">
-                        <p class="mb-0">About</p>
-                        <ul class="ps-0">
-                            <li><a href="index.html" class="text-secondary">Inicio</a></li>
-                            <li><a href="pages/lastresr.html" class="text-secondary">Las Tres R</a></li>
-                            <li><a href="pages/compostar.html" class="text-secondary">Compostar</a></li>
-                            <li><a href="pages/menosesmas.html" class="text-secondary">Menos es más</a></li>
-                            <li><a href="pages/contacto.html" class="text-secondary">Contacto</a></li>
+                    <div class="col-12 col-md-4 footer__about">
+                        <p class="">About</p>
+                        <ul class="">
+                            <li><a href="index.html" class="">Inicio</a></li>
+                            <li><a href="pages/lastresr.html" class="">Las Tres R</a></li>
+                            <li><a href="pages/compostar.html" class="">Compostar</a></li>
+                            <li><a href="pages/menosesmas.html" class="">Menos es más</a></li>
+                            <li><a href="pages/contacto.html" class="">Contacto</a></li>
                         </ul>
                     </div>
                     <!-- / about -->
@@ -164,7 +161,7 @@
 
 
                 <!-- newsletter -->
-                <div class="col-12 col-md-8 col-lg-5 bg-md-dark mx-auto col-lg-5 text-center pt-md-5 pt-lg-0">
+                <div class="col-12 col-md-8 col-lg-5 bg-md-dark col-lg-5 pt-md-5 pt-lg-0 footer__newsletter">
                     <div class="col-lg-10">
                         <p class="">¿Querés suscribirte a nuestro Newsletter?</p>
                         <div class="row col-12">
@@ -172,7 +169,7 @@
                                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@ejemplo.com">
                             </div>
                             <div class="col-4 g-0">
-                                <a href="#" class="btn btn-primary w-100">Enviar</a>
+                                <a href="#" class="btn btn-primary">Enviar</a>
                             </div>
                         </div>
                     </div>
@@ -184,7 +181,7 @@
 
 
             <!-- copyright -->
-            <div class="col-12 border-top pt-3">
+            <div class="col-12 footer__copyright">
                 <p class="text-center">&copy; Todos los derechos reservados | Asensio M.</p>
             </div>
             <!-- /copyright -->
@@ -193,6 +190,10 @@
     </footer>
     <!-- / footer ---------------------------------------------->
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <!-- Bootstrap JS -->
     <script src="js/bootstrap.min.js"></script>

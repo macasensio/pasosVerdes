@@ -23,6 +23,11 @@
     color: #e6e6e6;
 }
 
+/*********** animation ***********/
+.animate__animated.animate__bounce {
+    --animate-duration: 2s;
+}
+
 /* sección links a páginas */
 .seccionPaginas { 
     margin: 3rem 0;
@@ -38,24 +43,24 @@
 
 .seccionPaginas__links div {
     text-align: center;
+    & a {
+        font-weight: bold;
+        background-color: $verde-5;
+        color: #000000;
+        transition: background-color .5s;
+        &:hover{
+            background-color: $verde-1;
+            color: #ffffff;
+        }
+    }
 }
-.seccionPaginas__links div a {
-    font-weight: bold;
-    background-color: $verde-5;
-    color: #000000;
-}
-.seccionPaginas__links div a:hover {
-    background-color: $verde-1;
-    color: #ffffff;
-}
+
+// .seccionPaginas__links div a:hover {
+//     background-color: $verde-1;
+//     color: #ffffff;
+// }
 .seccionPaginas__a--margin {
     margin: 2rem 0;
-}
-
-/*********** animation ***********/
-
-.animate__animated.animate__bounce {
-    --animate-duration: 3s;
 }
 
 

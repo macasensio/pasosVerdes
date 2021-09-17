@@ -2,38 +2,85 @@
 
 .footer__frase {
     background-color: $verde-2;
-}
-.footer__frase p {
-    text-align: center;
-    padding: 28px 0px;
-    font-size: 1.7rem;
-    color: #ffffff;
-    
-}
 
+    & p {
+        text-align: center;
+        padding: 28px 0px;
+        font-size: 1.7rem;
+        color: #ffffff;        
+    }
+}
+.footer__cuerpo {
+    padding: 3rem;
+    width: 75%;
+    margin: auto;
+}
 footer li {
     list-style: none;
 }
 
-.footer_web a {
-    padding: 0.5rem;
-    font-size: 1.25rem;
-    color: $verde-2;
-}
+.footer_web {
+    text-align: center;
+    a {
+        padding: 0.5rem;
+        font-size: 1.25rem;
+        color: $verde-2;
 
+        &:hover {
+            color: $verde-1;
+        }
+    }
+}
 .footer__about {
     text-align: center;
     padding: 1.5rem;
+    p {
+        margin-bottom: 0;
+    }
+    ul {
+        padding-left: 0;
+        a {
+            color: $verde-1;
+            &:hover {
+            font-weight: bold;
+            }
+        }
+    }    
+    
 }
 
-$coloresFooter: (
-    redes: #198754,
-    secciones: #6c757d
-);
+// $coloresFooter: (
+//     redes: #198754,
+//     secciones: #6c757d
+// );
 
-@each $elemento, $color in $coloresFooter {
-    .color-#{$elemento} {
-        color: $color;
+// @each $elemento, $color in $coloresFooter {
+//     .color-#{$elemento} {
+//         color: $color;
+//     }
+// }
+
+.footer__newsletter {
+    text-align: center;
+    margin: auto;
+
+    & a {
+        width: 100%;
+        background-color: $verde-1;
+        color: #ffffff;
+        border: $verde-1;
+        transition: background-color .5s;
+        &:hover {
+            background-color: $verde-5;
+            color: #000000;
+        }
+    }
+}
+
+.footer__copyright {
+    border-top: 1px solid #dfe7c3;
+    p {
+        padding-top: 1rem;
     }
 }
 
@@ -53,7 +100,10 @@ $coloresFooter: (
 @media screen and (min-width: 768px) {
     .footer__about {
         text-align: left;
+        padding-top: 0;
+        padding-bottom: 0;
     }
+
 }
 
 /* Large */
