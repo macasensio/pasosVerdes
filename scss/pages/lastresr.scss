@@ -35,6 +35,19 @@
 /* cards */
 .tresRCards {
     margin-bottom: 100px;
+    h5 {
+        color: $negro;
+        font-size: 1.7rem;
+        text-shadow: 2px 2px $verde-5;        
+    }
+    .card-body {
+        & > p {
+            margin: 20px 0px;
+        }
+        .modal-body p {
+            margin-bottom: 0px;
+        }
+    }
 }
 
 

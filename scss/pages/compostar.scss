@@ -9,57 +9,132 @@
     }
 }
 
+.compostar__separador {
+    width: 90%;
+    margin: 50px auto;
+    box-shadow: 2px 2px 5px $verde-1;
+}
+
 .compostar__seccion1, .compostar__seccion2, .compostar__seccion3, .compostar__seccion4 > div > h2 {
     text-align: center;
+    p {
+        font-size: 1.1rem;
+    }    
 }
 
+/* sección 1 */
 .compostar__seccion1 {
-    padding-top: 30px;
+    width: 90%;
+    margin: auto;
+    & div {
+        margin: auto;
+    }
+    h2 {
+        text-align: center;
+        padding: 50px 0px 30px 0px;
+        color: $verde-3;
+        font-size: 3rem;
+        text-shadow: 1px 1px $verde-1;
+    }
+    img {
+        width: 250px;
+    }
 }
 
-.compostar__seccion2 img {
-    width: 100%;
+
+/* sección 2 */
+.compostar__seccion2 {
+    
+    margin: auto;
+    h2 {
+        color: $negro;
+        font-size: 2rem;
+        text-shadow: 2px 2px $verde-5;
+        margin-bottom: 40px;
+    }
+    img {
+        width: 170px;
+    }
 }
-.compostar__seccion2__resp {
+
+.compostar__seccion2__contenido {
+    margin: auto;
+    div:first-child p {
+        color: $verde-3;
+    }
+}
+
+.compostar__seccion2__resp{
     font-weight: bold;
-    font-size: 1.5rem;;
+    font-size: 1.8rem!important;
+    color: $negro;
 }
 
-.compostar__seccion3 {
-    margin-top: 50px;
+/*********** animation ***********/
+.animate__animated.animate__lightSpeedInRight {
+    --animate-duration: 2s;
+}
 
+
+/* sección 3 */
+.compostar__seccion3 {
+    h2 {
+        color: $negro;
+        font-size: 2rem;
+        text-shadow: 2px 2px $verde-5;
+        margin-bottom: 40px;
+    }
     & img {
         width: 180px;
     }
 }
 
+
+/* sección 4 */
 .compostar__seccion4 {
-    margin-top: 50px;
     margin-bottom: 50px;
 
+    &__titulo {
+        color: $negro;
+        font-size: 2rem;
+        text-shadow: 2px 2px $verde-5;
+        margin-bottom: 50px;
+    }
     & .accordion {
+        font-size: 1.1rem;
         margin-top: 30px;
-
+        &-item {
+            border: none;
+        }        
         & button {
             font-weight: bold;
+            margin-bottom: 10px;
             &:not(.collapsed) {
-                background-color: $verde-4;
-                color: #000000;
+                background-color: $verde-5;
+                color: $negro;
+                &:after {
+                    background-image: url(/assets/images/compostar/chevron-down.svg);
+                }
             }
-            &:focus {
-                outline: none;
-                border: none;
+            &.collapsed {
+                background-color: #f8f9fa;
+                color: $negro;
             }            
         }
-
-    
-        
+        & .accordion-button {
+            font-size: 1.1rem;
+        }
+        .accordion-body p:first-of-type {
+            font-weight: bold;
+        }
+        .accordion-body p:last-of-type {
+            font-style: italic;
+            font-size: 1rem;
+            color: $verde-1;
+        }
     }
 }
-.accordion-button:focus {
-    outline: none;
-    border: none;
-}
+
 
 
 /*********** media query ***********/
@@ -85,10 +160,14 @@
 
 /* Extra large */
 @media screen and (min-width: 1200px) {
-
+    .compostar__separador {
+        width: 75%;
+    }
 }
 
 /* Extra large large */
 @media screen and (min-width: 1400px) {
-
+    .compostar__separador {
+        width: 60%;
+    }
 }
