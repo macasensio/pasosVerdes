@@ -14,5 +14,32 @@ $verde-5: #dfe7c3;
 $negro: #212529;
 
 
+/* estilo ventana modal */
+.modal-header {
+    display: inline;
+    text-align: center;
+}
+
+h5 {
+    color: $negro;
+    font-size: 1.7rem;
+    text-shadow: 2px 2px $verde-5;        
+}
+
+.btn__cerrar {
+    background-color: $verde-1;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    &:hover {
+        background-color: $verde-5;
+        color: $negro;
+    }
+}
+
+.modal-body p {
+    margin-bottom: 0px;
+}
+
 
 // comentar reglas de seo

@@ -1,19 +1,79 @@
 /* MENOS ES MÁS */
 
+
+h2 {
+    text-align: center;
+    color: #212529;
+    font-size: 2rem;
+    text-shadow: 2px 2px #dfe7c3;
+    margin-bottom: 40px;
+}
+
+.mesm {
+    h1 {
+        text-align: center;
+        padding: 50px 0px 30px 0px;
+        color: $verde-3;
+        font-size: 3rem;
+        text-shadow: 1px 1px $verde-1;
+    }
+
+    img {
+        border-radius: 5px;
+    }
+}
+
+.mesm__quees {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.mesm__seccion {
+    margin-bottom: 70px;
+    p {
+        text-align: justify;
+        margin-bottom: 30px;
+    }
+    img {
+        width: 100%;
+    }
+}
+
+.mesm__tips {
+    h2 {
+        text-align: center;
+    }
+}
+
 .tips {
     text-align: center;
-    width: 80%;
-    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 80px;
+    &_1, &_2 {
+        margin-bottom: 70px;
+    }
+
+    &__img {
+        width: 80px;
+    }
+
+    h5 {
+        color: $negro;
+        font-size: 1.7rem;
+        text-shadow: 2px 2px $verde-5;        
+    }
+    
 }
 .tips__btn {
     border: none;
     padding: 20px;
     border-radius: 5px;
     background-color: $verde-5;
+    &:hover {
+        background-color: $verde-1;
+    }
 }
-.tips__img {
-    width: 100px;
-}
+
 
 
 /*presioname*/
@@ -32,8 +92,8 @@
         transform: scale(1);
     }
     100% {
-        -webkit-transform: scale(0.8);
-        transform: scale(0.8);
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
     }
 }
 @keyframes scale-down-center {
@@ -42,8 +102,8 @@
         transform: scale(1);
     }
     100% {
-        -webkit-transform: scale(0.8);
-        transform: scale(0.8);
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
     }
 }
 
@@ -60,12 +120,20 @@
 
 /* Medium */
 @media screen and (min-width: 768px) {
-
+    .tips {
+        &_1, &_2 {
+            margin-bottom: 0px;
+        }
+    }
 }
 
 /* Large */
 @media screen and (min-width: 992px) {
-
+    .mesm__seccion {
+        p {
+            margin-bottom: 0px;
+        }
+    }
 }
 
 /* Extra large */
