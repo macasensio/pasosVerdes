@@ -6,10 +6,13 @@
 
 /*----- IMPORTS -----*/
 /* GENERAL */
-.sombra {
-  text-shadow: 2px 2px 2px #152119; }
-
 /* colores */
+.sombraOscura {
+  text-shadow: 2px 2px 2px #212529; }
+
+.sombraClara {
+  text-shadow: 2px 2px #dfe7c3; }
+
 /* estilo ventana modal */
 .modal-header {
   display: inline;
@@ -70,7 +73,6 @@ h5 {
   .compostar__seccion2 h2 {
     color: #212529;
     font-size: 2rem;
-    text-shadow: 2px 2px #dfe7c3;
     margin-bottom: 40px; }
   .compostar__seccion2 img {
     width: 170px; }
@@ -93,7 +95,6 @@ h5 {
 .compostar__seccion3 h2 {
   color: #212529;
   font-size: 2rem;
-  text-shadow: 2px 2px #dfe7c3;
   margin-bottom: 40px; }
 
 .compostar__seccion3 img {
@@ -105,7 +106,6 @@ h5 {
   .compostar__seccion4__titulo {
     color: #212529;
     font-size: 2rem;
-    text-shadow: 2px 2px #dfe7c3;
     margin-bottom: 50px; }
   .compostar__seccion4 .accordion {
     font-size: 1.1rem;
@@ -417,7 +417,7 @@ footer li {
 
 /* Extra large large */
 /* MENOS ES MÁS */
-h2 {
+.mesm h2, .mesm__tips h2 {
   text-align: center;
   color: #212529;
   font-size: 2rem;
@@ -446,9 +446,6 @@ h2 {
   .mesm__seccion img {
     width: 100%; }
 
-.mesm__tips h2 {
-  text-align: center; }
-
 .tips {
   text-align: center;
   margin-top: 70px;
@@ -459,8 +456,7 @@ h2 {
     width: 80px; }
   .tips h5 {
     color: #212529;
-    font-size: 1.7rem;
-    text-shadow: 2px 2px #dfe7c3; }
+    font-size: 1.7rem; }
 
 .tips__btn {
   border: none;

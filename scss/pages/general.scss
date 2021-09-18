@@ -1,8 +1,6 @@
 /* GENERAL */
 
-.sombra {
-    text-shadow: 2px 2px 2px #152119;
-}
+
 
 /* colores */
 $verde-1: #255d00;
@@ -12,6 +10,14 @@ $verde-4: #cbdc8b;
 $verde-5: #dfe7c3;
 
 $negro: #212529;
+
+
+.sombraOscura {
+    text-shadow: 2px 2px 2px $negro;
+}
+.sombraClara {
+    text-shadow: 2px 2px $verde-5;
+}
 
 
 /* estilo ventana modal */
