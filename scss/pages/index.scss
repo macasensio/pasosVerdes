@@ -55,26 +55,12 @@
     }
 }
 
-// .seccionPaginas__links div a:hover {
-//     background-color: $verde-1;
-//     color: #ffffff;
-// }
 .seccionPaginas__a--margin {
     margin: 2rem 0;
 }
 
 
 /*********** media query ***********/
-/* X-Small */
-@media screen and (max-width: 576px) {
-
-}
-
-/* Small */
-@media screen and (min-width: 576px) {
-
-}
-
 /* Medium */
 @media screen and (min-width: 768px) {
     .portada__h1 {
@@ -83,11 +69,6 @@
     .portada__h2 {
         font-size: 2rem;
     }
-}
-
-/* Large */
-@media screen and (min-width: 992px) {
-
 }
 
 /* Extra Large */
@@ -107,9 +88,3 @@
         font-size: 2.5rem;
     }
 }
-
-/* Extra large large */
-@media screen and (min-width: 1400px) {
-
-}
-

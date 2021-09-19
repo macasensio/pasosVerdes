@@ -26,7 +26,6 @@
     font-size: 1.3rem;
     color: $verde-2;
     text-decoration: none;
-    //text-shadow: 0.3px 0.3px #152119;
 
     &:hover {
         color: $verde-1;
@@ -47,41 +46,12 @@
     color: $verde-2;
 }
 
+
 /******** media querys ********/
-/* mobile */
-@media screen and (min-width: 991px) {
-    .menu__ul > li a {
-        margin: 0px 20px;
-    }
-}
-
-/*********** media query ***********/
-/* X-Small */
-@media screen and (max-width: 576px) {
-
-}
-
-/* Small */
-@media screen and (min-width: 576px) {
-
-}
-
-/* Medium */
-@media screen and (min-width: 768px) {
-
-}
 
 /* Large */
 @media screen and (min-width: 992px) {
-
-}
-
-/* Extra large */
-@media screen and (min-width: 1200px) {
-
-}
-
-/* Extra large large */
-@media screen and (min-width: 1400px) {
-
+    .menu__ul > li a {
+        margin: 0px 20px;
+    }
 }

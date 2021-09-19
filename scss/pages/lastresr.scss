@@ -74,16 +74,6 @@
 
 
 /*********** media query ***********/
-/* X-Small */
-@media screen and (max-width: 576px) {
-    
-}
-
-/* Small */
-@media screen and (min-width: 576px) {
-    
-}
-
 /* Medium */
 @media screen and (min-width: 768px) {
     .lasTresR__intro__img img {
@@ -112,10 +102,3 @@
     }
     
 }
-
-/* Extra large large */
-@media screen and (min-width: 1400px) {
-    // .tresRCards__reducir > div:hover img , .tresRCards__reciclar > div:hover img , .tresRCards__reutilizar > div:hover img {
-    //     transform: rotate(-180deg);
-    // }
-} 

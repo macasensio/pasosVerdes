@@ -140,10 +140,6 @@ h5 {
       color: #255d00; }
 
 /*********** media query ***********/
-/* X-Small */
-/* Small */
-/* Medium */
-/* Large */
 /* Extra large */
 @media screen and (min-width: 1200px) {
   .compostar__separador {
@@ -269,9 +265,6 @@ footer li {
     padding-top: 0;
     padding-bottom: 0; } }
 
-/* Large */
-/* Extra large */
-/* Extra large large */
 /* INDEX */
 /* portada */
 .portada {
@@ -322,8 +315,6 @@ footer li {
   margin: 2rem 0; }
 
 /*********** media query ***********/
-/* X-Small */
-/* Small */
 /* Medium */
 @media screen and (min-width: 768px) {
   .portada__h1 {
@@ -331,7 +322,6 @@ footer li {
   .portada__h2 {
     font-size: 2rem; } }
 
-/* Large */
 /* Extra Large */
 @media screen and (min-width: 1200px) {
   .portada {
@@ -343,7 +333,6 @@ footer li {
   .seccionPaginas_texto p {
     font-size: 2.5rem; } }
 
-/* Extra large large */
 /* LAS TRES R*/
 /* intro */
 .lasTresR h1 {
@@ -400,8 +389,6 @@ footer li {
   transition: all 3s; }
 
 /*********** media query ***********/
-/* X-Small */
-/* Small */
 /* Medium */
 @media screen and (min-width: 768px) {
   .lasTresR__intro__img img {
@@ -422,7 +409,6 @@ footer li {
   .tresRCards > div:hover img {
     transform: rotate(-90deg); } }
 
-/* Extra large large */
 /* MENOS ES MÁS */
 .mesm h2, .mesm__tips h2 {
   text-align: center;
@@ -500,8 +486,6 @@ footer li {
     transform: scale(0.9); } }
 
 /*********** media query ***********/
-/* X-Small */
-/* Small */
 /* Medium */
 @media screen and (min-width: 768px) {
   .tips_1, .tips_2 {
@@ -512,8 +496,6 @@ footer li {
   .mesm__seccion p {
     margin-bottom: 0px; } }
 
-/* Extra large */
-/* Extra large large */
 /* NAVBAR */
 /* estilos */
 .navbar__logo {
@@ -554,18 +536,11 @@ footer li {
   color: #558b2f; }
 
 /******** media querys ********/
-/* mobile */
-@media screen and (min-width: 991px) {
+/* Large */
+@media screen and (min-width: 992px) {
   .menu__ul > li a {
     margin: 0px 20px; } }
 
-/*********** media query ***********/
-/* X-Small */
-/* Small */
-/* Medium */
-/* Large */
-/* Extra large */
-/* Extra large large */
 /*----- CLASES GENERALES -----*/
 main, .mtop-100 {
   margin-top: 100px; }
@@ -575,11 +550,3 @@ main, .mtop-100 {
 
 .txt_center {
   text-align: center; }
-
-/*********** media query ***********/
-/* X-Small */
-/* Small */
-/* Medium */
-/* Large */
-/* Extra large */
-/* Extra large large */

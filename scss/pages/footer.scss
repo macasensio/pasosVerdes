@@ -76,9 +76,6 @@ footer li {
 
 /*********** media query ***********/
 /* X-Small */
-@media screen and (max-width: 576px) {
-
-}
 
 /* Small */
 @media screen and (min-width: 576px) {
@@ -94,21 +91,5 @@ footer li {
         padding-top: 0;
         padding-bottom: 0;
     }
-
-}
-
-/* Large */
-@media screen and (min-width: 992px) {
-
-}
-
-/* Extra large */
-@media screen and (min-width: 1200px) {
-
-}
-
-/* Extra large large */
-@media screen and (min-width: 1400px) {
-
 }
 
