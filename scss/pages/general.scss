@@ -1,6 +1,12 @@
 /* GENERAL */
 
-
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #f8f9fa;
+}
 
 /* colores */
 $verde-1: #255d00;

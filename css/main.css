@@ -6,6 +6,13 @@
 
 /*----- IMPORTS -----*/
 /* GENERAL */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: #f8f9fa; }
+
 /* colores */
 .sombraOscura {
   text-shadow: 2px 2px 2px #212529; }
@@ -515,6 +522,9 @@ footer li {
 
 .navbar__logo:hover {
   transform: rotate(-180deg); }
+
+.menu__mobile {
+  text-align: end; }
 
 .menu__ul {
   margin: 20px 0px;
